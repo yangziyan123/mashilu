@@ -1,0 +1,49 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { withBase } from "@/lib/url";
+
+const pagefindCss = withBase("/pagefind/pagefind-ui.css");
+const pagefindJs = withBase("/pagefind/pagefind-ui.js");
+---
+
+<BaseLayout title="站内搜索 | 码师录" description="搜索码师录收录的计算机教学个人 IP、方向、标签、适合人群和内容说明。">
+  <section class="border-b border-line bg-white">
+    <div class="site-shell py-7">
+      <h1 class="text-3xl font-black tracking-normal text-ink">站内搜索</h1>
+      <p class="mt-2 max-w-3xl text-sm leading-6 text-muted">
+        生产构建后由 Pagefind 提供本地搜索索引。
+      </p>
+    </div>
+  </section>
+
+  <section class="site-shell py-6">
+    <link rel="stylesheet" href={pagefindCss} />
+    <div class="rounded-lg border border-line bg-white p-5 shadow-sm">
+      <div id="search"></div>
+      <p class="hidden text-sm text-muted" id="search-fallback">
+        本地开发模式下尚未生成 Pagefind 索引。运行生产构建后可使用完整搜索。
+      </p>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ pagefindJs }}>
+    const initialQuery = new URLSearchParams(window.location.search).get("q") || "";
+    const fallback = document.querySelector("#search-fallback");
+    const script = document.createElement("script");
+    script.src = pagefindJs;
+    script.onload = () => {
+      const ui = new window.PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        resetStyles: false,
+      });
+      if (initialQuery) {
+        ui.triggerSearch(initialQuery);
+      }
+    };
+    script.onerror = () => {
+      fallback?.classList.remove("hidden");
+    };
+    document.head.appendChild(script);
+  </script>
+</BaseLayout>

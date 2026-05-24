@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+  --color-ink: #172033;
+  --color-muted: #5d6b82;
+  --color-line: #d9e0ea;
+  --color-panel: #f7f9fc;
+  --color-brand: #0f766e;
+  --color-brand-dark: #115e59;
+  --color-accent: #1d4ed8;
+}
+
+@layer base {
+  html {
+    color: var(--color-ink);
+    background: #f5f7fb;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    font-family: var(--font-sans);
+  }
+
+  a {
+    text-underline-offset: 3px;
+  }
+
+  :focus-visible {
+    outline: 3px solid rgba(15, 118, 110, 0.32);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .site-shell {
+    width: min(1180px, calc(100% - 32px));
+    margin-inline: auto;
+  }
+
+  .field-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #40516a;
+  }
+
+  .form-field {
+    width: 100%;
+    min-height: 42px;
+    border: 1px solid var(--color-line);
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 8px 10px;
+    color: var(--color-ink);
+    font-size: 14px;
+  }
+
+  .content-body {
+    color: #27364d;
+    line-height: 1.8;
+  }
+
+  .content-body h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #172033;
+  }
+
+  .content-body p {
+    margin: 10px 0;
+  }
+
+  .content-body a {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+}

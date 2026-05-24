@@ -1,0 +1,39 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import CategoryFilter from "@/components/CategoryFilter.astro";
+import IpCard from "@/components/IpCard.astro";
+import { getCategoryBySlug, getCategoryStats, getCategorySlug, sortIps } from "@/lib/ips";
+
+export async function getStaticPaths() {
+  const ips = sortIps(await getCollection("ips"));
+  const categories = getCategoryStats(ips);
+  return categories.map((category) => ({
+    params: { category: category.slug },
+    props: {
+      category,
+      categories,
+      ips: ips.filter((ip) => ip.data.categories.some((name) => getCategorySlug(name) === category.slug)),
+    },
+  }));
+}
+
+const { category, categories, ips } = Astro.props;
+const meta = getCategoryBySlug(category.slug) ?? category;
+---
+
+<BaseLayout title={`${meta.name}教学个人 IP 汇总 | 码师录`} description={`${meta.description} 当前收录 ${ips.length} 个相关 IP。`}>
+  <section class="border-b border-line bg-white">
+    <div class="site-shell py-7">
+      <h1 class="text-3xl font-black tracking-normal text-ink">{meta.name}</h1>
+      <p class="mt-2 max-w-3xl text-sm leading-6 text-muted">{meta.description}</p>
+    </div>
+  </section>
+
+  <section class="site-shell py-6">
+    <CategoryFilter categories={categories} current={category.slug} />
+    <div class="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      {ips.map((ip) => <IpCard ip={ip} />)}
+    </div>
+  </section>
+</BaseLayout>

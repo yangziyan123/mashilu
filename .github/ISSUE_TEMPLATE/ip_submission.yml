@@ -1,0 +1,68 @@
+name: 推荐新的教学 IP
+description: 向码师录推荐一个计算机教学个人 IP 或教学品牌
+title: "[IP 推荐] "
+labels: ["ip-submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: IP 名称
+      description: 学习者实际会搜索或称呼的名称
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: 主理人/常用称呼
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: 主要链接
+      description: 官网、B站主页、GitHub、课程页或其他公开主页
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 教学方向
+      options:
+        - Java 后端
+        - 前端
+        - 算法/数据结构
+        - Python/AI/数据
+        - 计算机基础/系统
+        - 学习路线/求职
+        - 语言/后端工程
+        - 嵌入式/硬件
+        - 移动端
+        - 网络安全
+        - 编程入门/通用
+        - 其他/扩展
+    validations:
+      required: true
+  - type: textarea
+    id: representative
+    attributes:
+      label: 代表内容/产品
+      description: 公开教程、课程、项目、社群或资料
+    validations:
+      required: true
+  - type: textarea
+    id: paid
+    attributes:
+      label: 付费产品或商业形态
+      description: 没有或不确定可以写“暂不清楚”
+  - type: textarea
+    id: reason
+    attributes:
+      label: 推荐理由
+      description: 适合什么阶段、解决什么学习问题
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险、争议或注意点
+      description: 时效、价格、停止维护、口碑争议或信息不完整等

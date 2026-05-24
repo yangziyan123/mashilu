@@ -1,0 +1,37 @@
+---
+import { site } from "@/data/site";
+import { withBase } from "@/lib/url";
+
+const navItems = [
+  { href: "/", label: "首页" },
+  { href: "/ips/", label: "IP 库" },
+  { href: "/search/", label: "搜索" },
+  { href: "/submit/", label: "投稿" },
+  { href: "/about/", label: "关于" },
+];
+---
+
+<header class="border-b border-line bg-white">
+  <div class="site-shell flex min-h-16 items-center justify-between gap-4 py-3">
+    <a class="flex min-w-0 items-center gap-3 text-ink no-underline" href={withBase("/")}>
+      <img src={withBase("/favicon.svg")} alt="" class="h-9 w-9 shrink-0 rounded-lg" />
+      <span class="min-w-0">
+        <span class="block text-lg font-extrabold leading-5">{site.name}</span>
+        <span class="block truncate text-xs text-muted">{site.tagline}</span>
+      </span>
+    </a>
+
+    <nav class="flex shrink-0 items-center gap-1 overflow-x-auto text-sm" aria-label="主导航">
+      {
+        navItems.map((item) => (
+          <a
+            class="rounded-lg px-3 py-2 font-semibold text-slate-700 hover:bg-panel hover:text-brand"
+            href={withBase(item.href)}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>

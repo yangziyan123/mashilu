@@ -1,0 +1,64 @@
+---
+import type { IpEntry } from "@/lib/ips";
+import { getCategorySlug } from "@/lib/ips";
+import { withBase } from "@/lib/url";
+import Badge from "./Badge.astro";
+
+interface Props {
+  ip: IpEntry;
+}
+
+const { ip } = Astro.props;
+const data = ip.data;
+const category = data.categories[0];
+---
+
+<article
+  class="ip-card rounded-lg border border-line bg-white p-4 shadow-sm"
+  data-name={data.name}
+  data-owner={data.owner}
+  data-category={data.categories.join(" ")}
+  data-tags={data.tags.join(" ")}
+  data-priority={data.priority}
+  data-status={data.dataStatus}
+>
+  <div class="flex items-start justify-between gap-3">
+    <div class="min-w-0">
+      <a class="text-lg font-extrabold text-ink hover:text-brand hover:underline" href={withBase(`/ips/${data.slug}/`)}>
+        {data.name}
+      </a>
+      <p class="mt-1 text-sm text-muted">{data.owner} · {data.type}</p>
+    </div>
+    <Badge tone="priority">{data.priority}</Badge>
+  </div>
+
+  <div class="mt-3 flex flex-wrap gap-2">
+    <a
+      class="rounded-md border border-slate-200 bg-slate-50 px-2 py-1 text-xs font-bold text-slate-700 hover:border-brand hover:text-brand"
+      href={withBase(`/categories/${getCategorySlug(category)}/`)}
+    >
+      {category}
+    </a>
+    <Badge tone="status">{data.dataStatus}</Badge>
+  </div>
+
+  <dl class="mt-4 grid gap-3 text-sm">
+    <div>
+      <dt class="font-bold text-slate-900">主方向</dt>
+      <dd class="mt-1 text-muted">{data.primaryDirection}</dd>
+    </div>
+    <div>
+      <dt class="font-bold text-slate-900">适合人群</dt>
+      <dd class="mt-1 text-muted">{data.suitableFor.join("、")}</dd>
+    </div>
+    <div>
+      <dt class="font-bold text-slate-900">推荐场景</dt>
+      <dd class="mt-1 text-muted">{data.recommendedUseCase}</dd>
+    </div>
+  </dl>
+
+  <div class="mt-4 border-t border-line pt-4 text-sm">
+    <p class="line-clamp-2 text-muted"><strong class="text-ink">免费：</strong>{data.freeResources}</p>
+    <p class="mt-2 line-clamp-2 text-muted"><strong class="text-ink">付费：</strong>{data.paidProducts}</p>
+  </div>
+</article>

@@ -1,0 +1,45 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Field from "@/components/Field.astro";
+import { site } from "@/data/site";
+---
+
+<BaseLayout title="推荐新的教学 IP | 码师录" description="向码师录推荐新的计算机教学个人 IP，补充名称、主理人、入口、方向、代表内容和风险信息。">
+  <section class="border-b border-line bg-white">
+    <div class="site-shell py-7">
+      <h1 class="text-3xl font-black tracking-normal text-ink">推荐新的教学 IP</h1>
+      <p class="mt-2 max-w-3xl text-sm leading-6 text-muted">
+        MVP 阶段通过 GitHub Issue 收集推荐，内容审核后转为 Markdown 数据。
+      </p>
+    </div>
+  </section>
+
+  <section class="site-shell grid gap-6 py-6 lg:grid-cols-[minmax(0,1fr)_340px]">
+    <div class="rounded-lg border border-line bg-white p-5 shadow-sm">
+      <h2 class="text-xl font-extrabold text-ink">投稿字段</h2>
+      <dl class="mt-4 grid gap-4 text-sm md:grid-cols-2">
+        <Field title="IP 名称" text="学习者常用的检索名称或品牌名。" />
+        <Field title="主理人/常用称呼" text="能识别个人时写个人名，不能确认时写品牌名。" />
+        <Field title="主要链接" text="官网、B站主页、GitHub、课程页或公开主页。" />
+        <Field title="教学方向" text="Java、前端、算法、AI、基础、嵌入式、安全等。" />
+        <Field title="代表内容" text="最能代表该 IP 的公开教程、课程、项目或社群。" />
+        <Field title="付费产品" text="课程、训练营、社群、会员或图书等商业形态。" />
+        <Field title="推荐理由" text="适合什么阶段、解决什么学习问题。" />
+        <Field title="风险或争议" text="时效、价格、口碑、停止维护或信息不完整等提醒。" />
+      </dl>
+    </div>
+
+    <aside class="rounded-lg border border-line bg-panel p-5">
+      <h2 class="text-lg font-extrabold text-ink">入口</h2>
+      <p class="mt-2 text-sm leading-6 text-muted">
+        仓库地址确定后，将 `src/data/site.ts` 里的 Issue 链接替换为真实仓库。
+      </p>
+      <a
+        class="mt-4 inline-flex w-full items-center justify-center rounded-lg bg-brand px-4 py-3 text-sm font-bold text-white hover:bg-brand-dark"
+        href={site.issueTemplateUrl}
+      >
+        打开 GitHub Issue 模板
+      </a>
+    </aside>
+  </section>
+</BaseLayout>

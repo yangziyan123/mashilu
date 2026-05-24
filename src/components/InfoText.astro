@@ -1,0 +1,18 @@
+---
+interface Props {
+  title: string;
+  text: string;
+  tone?: "default" | "risk";
+}
+
+const { title, text, tone = "default" } = Astro.props;
+const toneClass =
+  tone === "risk"
+    ? "border-rose-200 bg-rose-50 text-rose-950"
+    : "border-line bg-panel text-slate-700";
+---
+
+<div class={`rounded-lg border p-4 ${toneClass}`}>
+  <h2 class="text-sm font-extrabold text-slate-900">{title}</h2>
+  <p class="mt-2 text-sm leading-6">{text}</p>
+</div>

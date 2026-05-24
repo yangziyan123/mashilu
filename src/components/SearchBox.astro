@@ -1,0 +1,32 @@
+---
+import { withBase } from "@/lib/url";
+
+interface Props {
+  placeholder?: string;
+  value?: string;
+}
+
+const { placeholder = "搜索 IP、方向、标签或适合人群", value = "" } = Astro.props;
+---
+
+<form action={withBase("/search/")} method="get" class="flex w-full gap-2">
+  <label class="sr-only" for="site-search">搜索</label>
+  <input
+    id="site-search"
+    class="form-field"
+    type="search"
+    name="q"
+    value={value}
+    placeholder={placeholder}
+    autocomplete="off"
+  />
+  <button
+    class="inline-flex min-h-[42px] shrink-0 items-center justify-center gap-2 rounded-lg bg-brand px-4 text-sm font-bold text-white hover:bg-brand-dark"
+    type="submit"
+  >
+    <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none">
+      <path d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    搜索
+  </button>
+</form>

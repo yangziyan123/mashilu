@@ -1,0 +1,37 @@
+---
+import { withBase } from "@/lib/url";
+
+interface CategoryItem {
+  name: string;
+  slug: string;
+  count: number;
+}
+
+interface Props {
+  categories: CategoryItem[];
+  current?: string;
+}
+
+const { categories, current = "" } = Astro.props;
+---
+
+<div class="flex flex-wrap gap-2">
+  {
+    categories.map((category) => {
+      const active = current === category.slug;
+      return (
+        <a
+          class={`inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm font-bold no-underline ${
+            active
+              ? "border-brand bg-brand text-white"
+              : "border-line bg-white text-slate-700 hover:border-brand hover:text-brand"
+          }`}
+          href={withBase(`/categories/${category.slug}/`)}
+        >
+          <span>{category.name}</span>
+          <span class={active ? "text-teal-100" : "text-muted"}>{category.count}</span>
+        </a>
+      );
+    })
+  }
+</div>

@@ -1,0 +1,145 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import IpCard from "@/components/IpCard.astro";
+import { getAllTags, getCategoryStats, sortIps } from "@/lib/ips";
+
+const ips = sortIps(await getCollection("ips"));
+const categories = getCategoryStats(ips);
+const tags = getAllTags(ips);
+const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =>
+  a.localeCompare(b, "zh-CN"),
+);
+---
+
+<BaseLayout title="计算机教学个人 IP 库 | 码师录" description="码师录 IP 库，支持按关键词、方向、标签、优先级和数据状态筛选计算机教学个人 IP。">
+  <section class="border-b border-line bg-white">
+    <div class="site-shell py-7">
+      <h1 class="text-3xl font-black tracking-normal text-ink">IP 库</h1>
+      <p class="mt-2 max-w-3xl text-sm leading-6 text-muted">
+        当前收录 {ips.length} 个计算机教学个人 IP/品牌。筛选仅在本地浏览器执行，不存储用户输入。
+      </p>
+    </div>
+  </section>
+
+  <section class="site-shell py-6">
+    <div class="rounded-lg border border-line bg-white p-4 shadow-sm">
+      <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-[1.4fr_1fr_1fr_0.8fr_1fr]">
+        <div>
+          <label class="field-label" for="filter-keyword">关键词</label>
+          <input class="form-field" id="filter-keyword" type="search" placeholder="名称、主理人、方向、标签" />
+        </div>
+        <div>
+          <label class="field-label" for="filter-category">分类</label>
+          <select class="form-field" id="filter-category">
+            <option value="">全部分类</option>
+            {categories.map((category) => <option value={category.name}>{category.name}</option>)}
+          </select>
+        </div>
+        <div>
+          <label class="field-label" for="filter-tag">标签</label>
+          <select class="form-field" id="filter-tag">
+            <option value="">全部标签</option>
+            {tags.map((tag) => <option value={tag}>{tag}</option>)}
+          </select>
+        </div>
+        <div>
+          <label class="field-label" for="filter-priority">优先级</label>
+          <select class="form-field" id="filter-priority">
+            <option value="">全部</option>
+            {["S", "A", "B", "C"].map((priority) => <option value={priority}>{priority}</option>)}
+          </select>
+        </div>
+        <div>
+          <label class="field-label" for="filter-status">数据状态</label>
+          <select class="form-field" id="filter-status">
+            <option value="">全部状态</option>
+            {statuses.map((status) => <option value={status}>{status}</option>)}
+          </select>
+        </div>
+      </div>
+
+      <div class="mt-4 flex items-center justify-between gap-3 border-t border-line pt-4 text-sm">
+        <p class="font-semibold text-muted"><span id="visible-count">{ips.length}</span> / {ips.length} 条</p>
+        <button class="rounded-lg border border-line px-3 py-2 font-bold text-slate-700 hover:border-brand hover:text-brand" id="reset-filters" type="button">
+          重置
+        </button>
+      </div>
+    </div>
+
+    <div class="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3" id="ip-grid">
+      {ips.map((ip) => <IpCard ip={ip} />)}
+    </div>
+  </section>
+
+  <script is:inline>
+    const cards = Array.from(document.querySelectorAll(".ip-card"));
+    const fields = {
+      keyword: document.querySelector("#filter-keyword"),
+      category: document.querySelector("#filter-category"),
+      tag: document.querySelector("#filter-tag"),
+      priority: document.querySelector("#filter-priority"),
+      status: document.querySelector("#filter-status"),
+    };
+    const visibleCount = document.querySelector("#visible-count");
+    const resetButton = document.querySelector("#reset-filters");
+
+    function applyQueryParams() {
+      const params = new URLSearchParams(window.location.search);
+      for (const [key, input] of Object.entries(fields)) {
+        if (params.has(key) && input) input.value = params.get(key);
+      }
+    }
+
+    function updateUrl() {
+      const params = new URLSearchParams();
+      for (const [key, input] of Object.entries(fields)) {
+        if (input?.value) params.set(key, input.value);
+      }
+      const next = params.toString() ? `${window.location.pathname}?${params}` : window.location.pathname;
+      window.history.replaceState(null, "", next);
+    }
+
+    function matches(card) {
+      const keyword = fields.keyword.value.trim().toLowerCase();
+      const haystack = [
+        card.dataset.name,
+        card.dataset.owner,
+        card.dataset.category,
+        card.dataset.tags,
+        card.textContent,
+      ]
+        .join(" ")
+        .toLowerCase();
+
+      if (keyword && !haystack.includes(keyword)) return false;
+      if (fields.category.value && !card.dataset.category.includes(fields.category.value)) return false;
+      if (fields.tag.value && !card.dataset.tags.includes(fields.tag.value)) return false;
+      if (fields.priority.value && card.dataset.priority !== fields.priority.value) return false;
+      if (fields.status.value && card.dataset.status !== fields.status.value) return false;
+      return true;
+    }
+
+    function render() {
+      let count = 0;
+      for (const card of cards) {
+        const ok = matches(card);
+        card.hidden = !ok;
+        if (ok) count += 1;
+      }
+      visibleCount.textContent = String(count);
+      updateUrl();
+    }
+
+    applyQueryParams();
+    Object.values(fields).forEach((input) => input?.addEventListener("input", render));
+    Object.values(fields).forEach((input) => input?.addEventListener("change", render));
+    resetButton?.addEventListener("click", () => {
+      Object.values(fields).forEach((input) => {
+        if (input) input.value = "";
+      });
+      render();
+    });
+    render();
+  </script>
+</BaseLayout>

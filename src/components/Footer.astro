@@ -1,0 +1,19 @@
+---
+import { site } from "@/data/site";
+import { withBase } from "@/lib/url";
+---
+
+<footer class="mt-12 border-t border-line bg-white">
+  <div class="site-shell grid gap-4 py-8 text-sm text-muted md:grid-cols-[1fr_auto]">
+    <div>
+      <p class="font-semibold text-ink">{site.name}</p>
+      <p class="mt-1 max-w-3xl">
+        数据来自公开入口整理，用于学习资源检索与比较，不构成课程背书或质量评级。
+      </p>
+    </div>
+    <div class="flex flex-wrap items-center gap-3 md:justify-end">
+      <a class="font-semibold text-brand hover:underline" href={withBase("/submit/")}>推荐 IP</a>
+      <a class="font-semibold text-brand hover:underline" href={site.repositoryUrl}>GitHub</a>
+    </div>
+  </div>
+</footer>

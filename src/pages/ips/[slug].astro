@@ -1,0 +1,23 @@
+---
+import { getCollection, render } from "astro:content";
+import IpLayout from "@/layouts/IpLayout.astro";
+import { getRelatedIps, sortIps } from "@/lib/ips";
+
+export async function getStaticPaths() {
+  const ips = sortIps(await getCollection("ips"));
+  return ips.map((ip) => ({
+    params: { slug: ip.data.slug },
+    props: {
+      ip,
+      related: getRelatedIps(ip, ips),
+    },
+  }));
+}
+
+const { ip, related } = Astro.props;
+const { Content } = await render(ip);
+---
+
+<IpLayout ip={ip} related={related}>
+  <Content />
+</IpLayout>

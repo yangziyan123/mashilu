@@ -1,0 +1,26 @@
+{
+  "name": "mashilu",
+  "version": "1.0.0",
+  "description": "码师录：计算机教学个人 IP 资源索引库 MVP",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "sync": "astro sync",
+    "import:data": "node scripts/import-ip-data.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^6.3.7",
+    "autoprefixer": "^10.5.0",
+    "pagefind": "^1.5.2",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^6.0.3"
+  }
+}

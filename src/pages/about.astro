@@ -1,0 +1,35 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="关于码师录 | 码师录" description="码师录的项目定位、数据边界和内容维护方式。">
+  <section class="border-b border-line bg-white">
+    <div class="site-shell py-7">
+      <h1 class="text-3xl font-black tracking-normal text-ink">关于码师录</h1>
+      <p class="mt-2 max-w-3xl text-sm leading-6 text-muted">
+        一个面向计算机学习者的个人 IP 教学资源索引库。
+      </p>
+    </div>
+  </section>
+
+  <section class="site-shell grid gap-5 py-6 md:grid-cols-3">
+    <article class="rounded-lg border border-line bg-white p-5 shadow-sm">
+      <h2 class="text-lg font-extrabold text-ink">定位</h2>
+      <p class="mt-3 text-sm leading-7 text-muted">
+        码师录不是课程销售页，也不是泛网址导航。它把重点放在学习者决策前需要比较的信息上。
+      </p>
+    </article>
+    <article class="rounded-lg border border-line bg-white p-5 shadow-sm">
+      <h2 class="text-lg font-extrabold text-ink">数据边界</h2>
+      <p class="mt-3 text-sm leading-7 text-muted">
+        当前数据来自公开页面和已有整理表，价格、社群状态、口碑和争议信息仍需要持续核验。
+      </p>
+    </article>
+    <article class="rounded-lg border border-line bg-white p-5 shadow-sm">
+      <h2 class="text-lg font-extrabold text-ink">维护方式</h2>
+      <p class="mt-3 text-sm leading-7 text-muted">
+        每个 IP 使用 Markdown 文件维护，后续通过 Pull Request 或 Issue 完成新增、纠错和更新。
+      </p>
+    </article>
+  </section>
+</BaseLayout>
