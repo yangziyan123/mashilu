@@ -12,3 +12,15 @@ Active code page: 65001
 [42m[1m astro [22m[49m [32mv6.3.7[39m [2mready in[22m 8625 [2mms[22m
 [2m┃[22m Local    [36mhttp://127.0.0.1:4322/[39m
 [2m22:07:56[22m [32mwatching for file changes...[39m
+[2m22:08:45[22m [34m[200][39m / [2m153ms[22m
+[2m22:09:11[22m [34m[200][39m / [2m9ms[22m
+[2m22:09:12[22m [34m[200][39m /ips/ [2m25ms[22m
+[2m22:18:55[22m [34m[watch][39m /src/styles/global.css
+[2m22:18:55[22m [34m[200][39m /ips/ [2m34ms[22m
+[2m22:18:55[22m [34m[watch][39m /src/styles/global.css
+[2m22:19:01[22m [34m[watch][39m /src/styles/global.css
+[2m22:19:02[22m [34m[200][39m /ips/ [2m26ms[22m
+[2m22:19:03[22m [34m[watch][39m /src/styles/global.css
+[2m22:19:03[22m [34m[200][39m /ips/ [2m39ms[22m
+[2m22:20:33[22m [34m[200][39m /ips/ [2m55ms[22m
+[2m22:20:34[22m [34m[200][39m /ips/ [2m105ms[22m
