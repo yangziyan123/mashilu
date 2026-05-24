@@ -26,7 +26,6 @@ suitableFor:
   - "Java入门学习者"
 recommendedUseCase: "按传统Java路线学习"
 riskNotes: "需确认课程版本和官方发布源"
-priority: "B"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

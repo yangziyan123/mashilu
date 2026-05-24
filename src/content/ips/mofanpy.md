@@ -29,7 +29,6 @@ suitableFor:
   - "Python/机器学习入门者"
 recommendedUseCase: "从Python进入机器学习/深度学习"
 riskNotes: "部分框架版本可能较旧，需注意新版API"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

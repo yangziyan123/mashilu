@@ -25,7 +25,6 @@ suitableFor:
   - "Java入门和基础巩固者"
 recommendedUseCase: "系统补Java基础和JVM入门"
 riskNotes: "机构教师属性，非独立个人站"
-priority: "B"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

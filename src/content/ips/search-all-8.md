@@ -26,7 +26,6 @@ suitableFor:
   - "网络安全入门和渗透测试学习者"
 recommendedUseCase: "学习Web安全和渗透测试基础"
 riskNotes: "安全内容需提醒合法合规，付费口碑需核验"
-priority: "B"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

@@ -28,7 +28,6 @@ suitableFor:
   - "Java校招/社招面试者"
 recommendedUseCase: "面试前查漏补缺、构建后端知识地图"
 riskNotes: "以资料库为主，实践项目需另配"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

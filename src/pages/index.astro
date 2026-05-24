@@ -6,12 +6,12 @@ import IpCard from "@/components/IpCard.astro";
 import SearchBox from "@/components/SearchBox.astro";
 import Stat from "@/components/Stat.astro";
 import { site } from "@/data/site";
-import { getCategoryStats, sortIps } from "@/lib/ips";
+import { getAllTags, getCategoryStats, sortIps } from "@/lib/ips";
 import { withBase } from "@/lib/url";
 
 const ips = sortIps(await getCollection("ips"));
 const categories = getCategoryStats(ips);
-const recommended = ips.filter((ip) => ip.data.priority === "S").slice(0, 6);
+const tags = getAllTags(ips);
 const latest = [...ips]
   .sort((a, b) => b.data.lastVerified.localeCompare(a.data.lastVerified))
   .slice(0, 8);
@@ -36,7 +36,7 @@ const verifiedCount = ips.filter((ip) => ip.data.dataStatus === "已核验").len
       <div class="grid grid-cols-2 gap-3 rounded-lg border border-line bg-panel p-4">
         <Stat label="收录 IP" value={ips.length} />
         <Stat label="一级分类" value={categories.length} />
-        <Stat label="S 级推荐" value={recommended.length} />
+        <Stat label="内容标签" value={tags.length} />
         <Stat label="已核验" value={verifiedCount} />
       </div>
     </div>
@@ -55,19 +55,6 @@ const verifiedCount = ips.filter((ip) => ip.data.dataStatus === "已核验").len
     </div>
   </section>
 
-  <section class="site-shell py-4">
-    <div class="flex flex-wrap items-end justify-between gap-3">
-      <div>
-        <h2 class="text-xl font-extrabold text-ink">S 级推荐</h2>
-        <p class="mt-1 text-sm text-muted">优先建立详情页和后续评测的核心样本。</p>
-      </div>
-      <a class="text-sm font-bold text-brand hover:underline" href={withBase("/ips/?priority=S")}>筛选 S 级</a>
-    </div>
-    <div class="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-      {recommended.map((ip) => <IpCard ip={ip} />)}
-    </div>
-  </section>
-
   <section class="site-shell py-8">
     <div class="flex flex-wrap items-end justify-between gap-3">
       <div>
@@ -77,12 +64,11 @@ const verifiedCount = ips.filter((ip) => ip.data.dataStatus === "已核验").len
       <a class="text-sm font-bold text-brand hover:underline" href={withBase("/submit/")}>推荐新 IP</a>
     </div>
     <div class="mt-4 overflow-x-auto rounded-lg border border-line bg-white shadow-sm">
-      <table class="w-full min-w-[760px] text-left text-sm">
+      <table class="w-full min-w-[640px] text-left text-sm">
         <thead class="bg-panel text-xs font-bold uppercase text-slate-600">
           <tr>
             <th class="px-4 py-3">名称</th>
             <th class="px-4 py-3">主方向</th>
-            <th class="px-4 py-3">优先级</th>
             <th class="px-4 py-3">状态</th>
             <th class="px-4 py-3">核验日期</th>
           </tr>
@@ -97,7 +83,6 @@ const verifiedCount = ips.filter((ip) => ip.data.dataStatus === "已核验").len
                   </a>
                 </td>
                 <td class="px-4 py-3 text-muted">{ip.data.primaryDirection}</td>
-                <td class="px-4 py-3 font-bold text-amber-700">{ip.data.priority}</td>
                 <td class="px-4 py-3 text-muted">{ip.data.dataStatus}</td>
                 <td class="px-4 py-3 text-muted">{ip.data.lastVerified}</td>
               </tr>

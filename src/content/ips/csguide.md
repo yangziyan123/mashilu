@@ -29,7 +29,6 @@ suitableFor:
   - "后端求职者"
 recommendedUseCase: "校招阶段规划、后端路线参考"
 riskNotes: "岗位和薪资信息需定期复核"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

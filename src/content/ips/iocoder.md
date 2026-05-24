@@ -31,7 +31,6 @@ suitableFor:
   - "源码和项目学习者"
 recommendedUseCase: "读源码、看开源项目架构"
 riskNotes: "开源项目复杂，初学者需要分阶段学习"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

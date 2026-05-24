@@ -28,7 +28,6 @@ suitableFor:
   - "计算机视觉入门/项目实践者"
 recommendedUseCase: "跟代码复现CV模型"
 riskNotes: "深度学习基础不足者需要先补前置知识"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

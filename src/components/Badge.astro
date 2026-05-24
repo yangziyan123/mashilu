@@ -1,11 +1,10 @@
 ---
 interface Props {
-  tone?: "priority" | "status" | "neutral" | "risk";
+  tone?: "status" | "neutral" | "risk";
 }
 
 const { tone = "neutral" } = Astro.props;
 const classes = {
-  priority: "border-amber-200 bg-amber-50 text-amber-800",
   status: "border-teal-200 bg-teal-50 text-teal-800",
   neutral: "border-slate-200 bg-slate-50 text-slate-700",
   risk: "border-rose-200 bg-rose-50 text-rose-800",

@@ -27,7 +27,6 @@ suitableFor:
   - "前端面试和全栈进阶者"
 recommendedUseCase: "前端面试查漏补缺"
 riskNotes: "需结合岗位方向筛选题目"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

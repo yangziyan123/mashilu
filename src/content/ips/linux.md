@@ -26,7 +26,6 @@ suitableFor:
   - "Linux和运维基础学习者"
 recommendedUseCase: "系统学习Linux命令和系统管理"
 riskNotes: "部分内容版本需结合现代发行版校正"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

@@ -26,7 +26,6 @@ suitableFor:
   - "嵌入式入门/项目实践者"
 recommendedUseCase: "学习STM32、RTOS和IoT项目"
 riskNotes: "入口分散，需补官方主页和课程状态"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

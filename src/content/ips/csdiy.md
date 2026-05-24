@@ -25,7 +25,6 @@ suitableFor:
   - "想按大学CS体系系统自学的人"
 recommendedUseCase: "补计算机底层基础、规划长期路线"
 riskNotes: "不等同于就业训练营，短期求职需另配项目和面试"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

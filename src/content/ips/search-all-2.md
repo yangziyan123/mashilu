@@ -26,7 +26,6 @@ suitableFor:
   - "前端零基础学习者"
 recommendedUseCase: "从HTML/CSS/JS入门"
 riskNotes: "机构归属强，个人IP独立性弱"
-priority: "B"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

@@ -27,7 +27,6 @@ suitableFor:
   - "前端进阶学习者"
 recommendedUseCase: "通过源码阅读提升工程能力"
 riskNotes: "活动型内容要看是否持续更新"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

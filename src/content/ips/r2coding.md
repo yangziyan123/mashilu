@@ -25,7 +25,6 @@ suitableFor:
   - "想自学但缺少路径的人"
 recommendedUseCase: "搭建入门资源清单"
 riskNotes: "偏资源集合，IP人格化程度相对弱"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

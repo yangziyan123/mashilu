@@ -28,7 +28,6 @@ suitableFor:
   - "机器学习系统学习者"
 recommendedUseCase: "学习ML/DL核心概念和前沿专题"
 riskNotes: "课程偏学术，工程项目需另配"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

@@ -21,7 +21,6 @@ const ips = defineCollection({
     suitableFor: z.array(z.string()).default([]),
     recommendedUseCase: z.string(),
     riskNotes: z.string(),
-    priority: z.enum(["S", "A", "B", "C"]),
     dataStatus: z.string(),
     lastVerified: z.string(),
     sources: z.array(z.string()).default([]),

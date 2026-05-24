@@ -28,7 +28,6 @@ suitableFor:
   - "OS学习者"
 recommendedUseCase: "系统学习操作系统设计与实现"
 riskNotes: "难度高，需C语言/体系结构基础"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

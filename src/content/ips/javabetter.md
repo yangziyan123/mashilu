@@ -31,7 +31,6 @@ suitableFor:
   - "校招/社招面试者"
 recommendedUseCase: "Java基础补齐和面试知识梳理"
 riskNotes: "资料量大，需按目标筛选"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

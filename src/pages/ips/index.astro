@@ -12,7 +12,7 @@ const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =
 );
 ---
 
-<BaseLayout title="计算机教学个人 IP 库 | 码师录" description="码师录 IP 库，支持按关键词、方向、标签、优先级和数据状态筛选计算机教学个人 IP。">
+<BaseLayout title="计算机教学个人 IP 库 | 码师录" description="码师录 IP 库，支持按关键词、方向、标签和数据状态筛选计算机教学个人 IP。">
   <section class="border-b border-line bg-white">
     <div class="site-shell py-7">
       <h1 class="text-3xl font-black tracking-normal text-ink">IP 库</h1>
@@ -24,7 +24,7 @@ const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =
 
   <section class="site-shell py-6">
     <div class="rounded-lg border border-line bg-white p-4 shadow-sm">
-      <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-[1.4fr_1fr_1fr_0.8fr_1fr]">
+      <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
           <label class="field-label" for="filter-keyword">关键词</label>
           <input class="form-field" id="filter-keyword" type="search" placeholder="名称、主理人、方向、标签" />
@@ -41,13 +41,6 @@ const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =
           <select class="form-field" id="filter-tag">
             <option value="">全部标签</option>
             {tags.map((tag) => <option value={tag}>{tag}</option>)}
-          </select>
-        </div>
-        <div>
-          <label class="field-label" for="filter-priority">优先级</label>
-          <select class="form-field" id="filter-priority">
-            <option value="">全部</option>
-            {["S", "A", "B", "C"].map((priority) => <option value={priority}>{priority}</option>)}
           </select>
         </div>
         <div>
@@ -78,7 +71,6 @@ const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =
       keyword: document.querySelector("#filter-keyword"),
       category: document.querySelector("#filter-category"),
       tag: document.querySelector("#filter-tag"),
-      priority: document.querySelector("#filter-priority"),
       status: document.querySelector("#filter-status"),
     };
     const visibleCount = document.querySelector("#visible-count");
@@ -115,7 +107,6 @@ const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =
       if (keyword && !haystack.includes(keyword)) return false;
       if (fields.category.value && !card.dataset.category.includes(fields.category.value)) return false;
       if (fields.tag.value && !card.dataset.tags.includes(fields.tag.value)) return false;
-      if (fields.priority.value && card.dataset.priority !== fields.priority.value) return false;
       if (fields.status.value && card.dataset.status !== fields.status.value) return false;
       return true;
     }

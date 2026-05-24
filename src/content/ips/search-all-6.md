@@ -26,7 +26,6 @@ suitableFor:
   - "机器学习工程入门者"
 recommendedUseCase: "用Python做数据分析和ML项目"
 riskNotes: "版本和平台来源分散，需核验官方入口"
-priority: "B"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

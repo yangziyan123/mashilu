@@ -30,7 +30,6 @@ suitableFor:
   - "React进阶开发者"
 recommendedUseCase: "深入React原理和源码"
 riskNotes: "不适合前端小白直接入门"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

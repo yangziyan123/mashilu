@@ -31,7 +31,6 @@ suitableFor:
   - "研究入门者"
 recommendedUseCase: "系统学习深度学习和论文阅读"
 riskNotes: "数学和编程基础要求较高"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

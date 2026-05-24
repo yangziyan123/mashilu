@@ -27,7 +27,6 @@ suitableFor:
   - "Java Web/Spring学习者"
 recommendedUseCase: "学习Spring Security和Java Web项目"
 riskNotes: "项目/框架版本需核验"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

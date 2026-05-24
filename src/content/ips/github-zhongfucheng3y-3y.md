@@ -28,7 +28,6 @@ suitableFor:
   - "Java初中级学习者"
 recommendedUseCase: "补Java后端常见知识点"
 riskNotes: "更新状态需复核"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

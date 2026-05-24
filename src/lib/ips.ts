@@ -3,26 +3,15 @@ import { categoryDefinitions } from "@/data/categories";
 
 export type IpEntry = CollectionEntry<"ips">;
 
-const priorityRank: Record<IpEntry["data"]["priority"], number> = {
-  S: 0,
-  A: 1,
-  B: 2,
-  C: 3,
-};
-
 const statusRank = new Map([
   ["已核验", 0],
-  ["待二次核验", 1],
-  ["经典归档", 2],
-  ["暂不推荐", 3],
+  ["公开页待二次核验", 1],
+  ["待二次核验", 2],
+  ["经典归档", 3],
 ]);
 
 export function sortIps(ips: IpEntry[]) {
   return [...ips].sort((a, b) => {
-    const priorityDiff =
-      priorityRank[a.data.priority] - priorityRank[b.data.priority];
-    if (priorityDiff !== 0) return priorityDiff;
-
     const statusDiff =
       (statusRank.get(a.data.dataStatus) ?? 9) -
       (statusRank.get(b.data.dataStatus) ?? 9);

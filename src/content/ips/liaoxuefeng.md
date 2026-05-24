@@ -27,7 +27,6 @@ suitableFor:
   - "自学基础语法的人"
 recommendedUseCase: "用文字教程入门常用语言和工具"
 riskNotes: "部分教程年代较早，框架版本需留意"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

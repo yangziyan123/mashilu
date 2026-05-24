@@ -28,7 +28,6 @@ suitableFor:
   - "Java零基础和转码学习者"
 recommendedUseCase: "从Java基础到后端知识点入门"
 riskNotes: "机构内容较多，需区分正版来源和搬运"
-priority: "A"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

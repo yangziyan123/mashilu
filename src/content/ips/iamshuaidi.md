@@ -29,7 +29,6 @@ suitableFor:
   - "校招准备者"
 recommendedUseCase: "建立求职准备清单、了解校招路径"
 riskNotes: "部分经验类内容需结合最新招聘市场判断"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

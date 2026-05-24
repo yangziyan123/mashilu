@@ -34,7 +34,6 @@ suitableFor:
   - "想补项目和架构经验的人"
 recommendedUseCase: "Java项目实战、DDD、源码和架构专题学习"
 riskNotes: "内容密度较高，小白需要搭配入门课"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

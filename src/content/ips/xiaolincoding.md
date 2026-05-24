@@ -30,7 +30,6 @@ suitableFor:
   - "补计算机基础的人"
 recommendedUseCase: "用图解方式理解网络/OS/数据库/Redis"
 riskNotes: "图解适合理解，深度研究需再看教材/论文"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

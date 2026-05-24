@@ -27,7 +27,6 @@ suitableFor:
   - "进阶算法/竞赛学习者"
 recommendedUseCase: "提升竞赛和高难题能力"
 riskNotes: "难度偏高，不适合完全小白直接跟"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

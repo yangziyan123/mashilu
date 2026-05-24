@@ -28,7 +28,6 @@ suitableFor:
   - "Java中高级开发和面试者"
 recommendedUseCase: "补Java工程细节和面试知识"
 riskNotes: "部分内容碎片化，需要结构化整理"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

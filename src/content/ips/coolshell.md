@@ -27,7 +27,6 @@ suitableFor:
   - "工程实践学习者"
 recommendedUseCase: "阅读经典技术思考和工程经验"
 riskNotes: "作者已逝，内容为经典归档，时效性需标注"
-priority: "A"
 dataStatus: "经典归档"
 lastVerified: "2026-05-24"
 sources: 

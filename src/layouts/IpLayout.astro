@@ -30,7 +30,6 @@ const description = getIpDescription(ip);
       <div class="grid gap-5 lg:grid-cols-[1fr_280px]">
         <div>
           <div class="flex flex-wrap gap-2">
-            <Badge tone="priority">优先级 {data.priority}</Badge>
             <Badge tone="status">{data.dataStatus}</Badge>
             {data.categories.map((category) => (
               <a

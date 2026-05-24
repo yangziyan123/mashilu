@@ -27,7 +27,6 @@ suitableFor:
   - "算法面试强化者"
 recommendedUseCase: "系统攻克面试算法和高频模型"
 riskNotes: "免费/付费资源分散，需后续核验官方入口"
-priority: "A"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

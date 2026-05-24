@@ -25,7 +25,6 @@ suitableFor:
   - "PyTorch和深度学习入门者"
 recommendedUseCase: "快速上手PyTorch训练流程"
 riskNotes: "需要核验主页、课程版本和完整度"
-priority: "B"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

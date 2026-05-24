@@ -27,7 +27,6 @@ suitableFor:
   - "Java后端系统复习者"
 recommendedUseCase: "按知识体系查漏补缺"
 riskNotes: "文档型资料，需要自己实践"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

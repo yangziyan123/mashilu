@@ -31,7 +31,6 @@ suitableFor:
   - "需要系统刷题的学习者"
 recommendedUseCase: "从零搭建算法刷题节奏，按专题练习"
 riskNotes: "偏刷题训练，计算机基础/项目实战需另配资源"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

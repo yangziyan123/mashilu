@@ -32,7 +32,6 @@ suitableFor:
   - "校招算法学习者"
 recommendedUseCase: "系统刷算法课、用题库训练"
 riskNotes: "算法平台属性强，非算法方向需搭配其他课程"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

@@ -29,7 +29,6 @@ suitableFor:
   - "技术阅读者"
 recommendedUseCase: "学习JS/ES6、跟踪技术趋势"
 riskNotes: "不是系统训练营型课程，适合作资料库"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

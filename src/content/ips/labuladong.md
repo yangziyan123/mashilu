@@ -27,7 +27,6 @@ suitableFor:
   - "希望用套路化方法刷题的人"
 recommendedUseCase: "算法模板、动态规划、题型归纳"
 riskNotes: "收费边界需标明，部分内容更适合有基础者"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

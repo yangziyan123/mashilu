@@ -152,7 +152,6 @@ function frontmatter(row, slug) {
     `suitableFor: ${yamlArray(splitList(row.audience))}`,
     `recommendedUseCase: ${yamlScalar(row.scene)}`,
     `riskNotes: ${yamlScalar(row.risk)}`,
-    `priority: ${yamlScalar(row.priority)}`,
     `dataStatus: ${yamlScalar(row.status)}`,
     `lastVerified: "2026-05-24"`,
     `sources: ${yamlArray(sources.length ? sources : [row.url])}`,

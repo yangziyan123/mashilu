@@ -28,7 +28,6 @@ suitableFor:
   - "AI入门和英文学习者"
 recommendedUseCase: "建立机器学习基础框架"
 riskNotes: "英文和平台付费体系需说明"
-priority: "S"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

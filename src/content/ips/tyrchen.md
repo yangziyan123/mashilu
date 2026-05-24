@@ -28,7 +28,6 @@ suitableFor:
   - "Rust和系统设计进阶者"
 recommendedUseCase: "学习Rust工程实践和系统设计"
 riskNotes: "部分内容在付费平台，需标清购买入口和评价"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

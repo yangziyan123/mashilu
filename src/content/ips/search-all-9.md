@@ -28,7 +28,6 @@ suitableFor:
   - "C++进阶学习者"
 recommendedUseCase: "学习STL、面向对象和C++设计"
 riskNotes: "公开视频版权来源复杂，需优先找正版入口"
-priority: "A"
 dataStatus: "待二次核验"
 lastVerified: "2026-05-24"
 sources: 

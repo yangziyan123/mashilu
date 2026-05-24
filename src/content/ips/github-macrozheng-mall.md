@@ -28,7 +28,6 @@ suitableFor:
   - "想做Java项目实战的人"
 recommendedUseCase: "学习电商项目架构和后台系统"
 riskNotes: "项目较大，需具备Spring基础"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

@@ -28,7 +28,6 @@ suitableFor:
   - "Spring生态学习者"
 recommendedUseCase: "学习Spring Boot和微服务入门"
 riskNotes: "部分文章版本较早，需看Spring版本"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

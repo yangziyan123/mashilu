@@ -27,7 +27,6 @@ suitableFor:
   - "LeetCode刷题者"
 recommendedUseCase: "按题解补充思路、跟每日题训练"
 riskNotes: "更像题解库，系统课程属性较弱"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

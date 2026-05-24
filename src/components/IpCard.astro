@@ -19,7 +19,6 @@ const category = data.categories[0];
   data-owner={data.owner}
   data-category={data.categories.join(" ")}
   data-tags={data.tags.join(" ")}
-  data-priority={data.priority}
   data-status={data.dataStatus}
 >
   <div class="flex items-start justify-between gap-3">
@@ -29,7 +28,6 @@ const category = data.categories[0];
       </a>
       <p class="mt-1 text-sm text-muted">{data.owner} · {data.type}</p>
     </div>
-    <Badge tone="priority">{data.priority}</Badge>
   </div>
 
   <div class="mt-3 flex flex-wrap gap-2">

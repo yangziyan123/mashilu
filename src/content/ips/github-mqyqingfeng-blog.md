@@ -26,7 +26,6 @@ suitableFor:
   - "JS进阶学习者"
 recommendedUseCase: "系统补JS基础和前端概念"
 riskNotes: "部分内容更新周期需核验"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

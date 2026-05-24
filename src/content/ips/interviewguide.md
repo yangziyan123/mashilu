@@ -30,7 +30,6 @@ suitableFor:
   - "转码求职者"
 recommendedUseCase: "校招准备、简历和面试节奏参考"
 riskNotes: "求职信息会随年份变化，需要标注更新时间"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

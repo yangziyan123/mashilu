@@ -31,7 +31,6 @@ suitableFor:
   - "转码和就业培训人群"
 recommendedUseCase: "系统培训和架构专题学习"
 riskNotes: "商业培训属性强，需评估价格、交付和口碑"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

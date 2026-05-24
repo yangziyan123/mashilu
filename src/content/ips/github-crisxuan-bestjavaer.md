@@ -28,7 +28,6 @@ suitableFor:
   - "Java后端和基础知识复习者"
 recommendedUseCase: "面试前补基础和Java知识点"
 riskNotes: "资料散度较高，需整理学习顺序"
-priority: "B"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 

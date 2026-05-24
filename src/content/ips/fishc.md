@@ -29,7 +29,6 @@ suitableFor:
   - "零基础编程学习者"
 recommendedUseCase: "入门C语言、Python和编程思维"
 riskNotes: "部分内容较基础，进阶就业需另配项目"
-priority: "A"
 dataStatus: "已核验"
 lastVerified: "2026-05-24"
 sources: 
