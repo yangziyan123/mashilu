@@ -4,7 +4,8 @@ slug: "limu-ai"
 owner: "李沐"
 type: "个人IP/学者型"
 categories: 
-  - "Python/AI/数据"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "AI/深度学习"
 tags: 
   - "深度学习"
@@ -44,7 +45,7 @@ suitableFor:
   - "研究入门者"
 recommendedUseCase: "系统学习深度学习和论文阅读"
 riskNotes: "数学和编程基础要求较高"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://zh.d2l.ai/"

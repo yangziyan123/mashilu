@@ -4,7 +4,8 @@ slug: "didispace"
 owner: "程序员DD"
 type: "个人IP"
 categories: 
-  - "Java 后端"
+  - "后端技术"
+  - "编程入门"
 primaryDirection: "Java后端/Spring"
 tags: 
   - "Spring Boot"
@@ -37,7 +38,7 @@ suitableFor:
   - "Spring生态学习者"
 recommendedUseCase: "学习Spring Boot和微服务入门"
 riskNotes: "部分文章版本较早，需看Spring版本"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://blog.didispace.com/"

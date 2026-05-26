@@ -4,7 +4,9 @@ slug: "csguide"
 owner: "小北"
 type: "个人IP"
 categories: 
-  - "学习路线/求职"
+  - "求职"
+  - "后端技术"
+  - "计算机基础"
 primaryDirection: "学习路线/求职"
 tags: 
   - "C++"
@@ -38,7 +40,7 @@ suitableFor:
   - "后端求职者"
 recommendedUseCase: "校招阶段规划、后端路线参考"
 riskNotes: "岗位和薪资信息需定期复核"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://csguide.cn/"

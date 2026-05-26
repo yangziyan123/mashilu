@@ -4,7 +4,10 @@ slug: "liaoxuefeng"
 owner: "廖雪峰"
 type: "个人IP"
 categories: 
-  - "编程入门/通用"
+  - "前端技术"
+  - "后端技术"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "编程入门/全栈"
 tags: 
   - "Python"
@@ -36,7 +39,7 @@ suitableFor:
   - "自学基础语法的人"
 recommendedUseCase: "用文字教程入门常用语言和工具"
 riskNotes: "部分教程年代较早，框架版本需留意"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.liaoxuefeng.com/"

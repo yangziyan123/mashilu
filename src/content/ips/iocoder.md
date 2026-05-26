@@ -4,7 +4,7 @@ slug: "iocoder"
 owner: "芋道源码"
 type: "个人/团队型IP"
 categories: 
-  - "Java 后端"
+  - "后端技术"
 primaryDirection: "Java后端/源码"
 tags: 
   - "Spring Boot"
@@ -40,7 +40,7 @@ suitableFor:
   - "源码和项目学习者"
 recommendedUseCase: "读源码、看开源项目架构"
 riskNotes: "开源项目复杂，初学者需要分阶段学习"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.iocoder.cn/"

@@ -4,7 +4,8 @@ slug: "hello-algo"
 owner: "Krahets"
 type: "个人IP+开源项目"
 categories: 
-  - "算法/数据结构"
+  - "算法"
+  - "编程入门"
 primaryDirection: "算法/数据结构"
 tags: 
   - "动画图解"
@@ -36,7 +37,7 @@ suitableFor:
   - "算法与数据结构入门者"
 recommendedUseCase: "用图解和代码学习基础算法"
 riskNotes: "偏基础学习，刷题强度需另配题库"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.hello-algo.com/"

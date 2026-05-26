@@ -4,7 +4,9 @@ slug: "jyywiki"
 owner: "蒋炎岩"
 type: "高校教师型IP"
 categories: 
-  - "计算机基础/系统"
+  - "后端技术"
+  - "算法"
+  - "计算机基础"
 primaryDirection: "操作系统/系统基础"
 tags: 
   - "操作系统"
@@ -41,7 +43,7 @@ suitableFor:
   - "OS学习者"
 recommendedUseCase: "系统学习操作系统设计与实现"
 riskNotes: "难度高，需C语言/体系结构基础"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://jyywiki.cn/OS/"

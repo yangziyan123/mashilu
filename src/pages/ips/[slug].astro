@@ -1,10 +1,11 @@
 ---
-import { getCollection, render } from "astro:content";
+import { marked } from "marked";
 import IpLayout from "@/layouts/IpLayout.astro";
+import { getAllIps } from "@/lib/ip-repository";
 import { getRelatedIps, sortIps } from "@/lib/ips";
 
 export async function getStaticPaths() {
-  const ips = sortIps(await getCollection("ips"));
+  const ips = sortIps(await getAllIps());
   return ips.map((ip) => ({
     params: { slug: ip.data.slug },
     props: {
@@ -15,9 +16,9 @@ export async function getStaticPaths() {
 }
 
 const { ip, related } = Astro.props;
-const { Content } = await render(ip);
+const bodyHtml = await marked.parse(ip.bodyMarkdown ?? ip.body ?? "");
 ---
 
 <IpLayout ip={ip} related={related}>
-  <Content />
+  <Fragment set:html={bodyHtml} />
 </IpLayout>

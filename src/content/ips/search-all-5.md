@@ -4,7 +4,8 @@ slug: "search-all-5"
 owner: "宋红康"
 type: "机构教师型IP"
 categories: 
-  - "Java 后端"
+  - "后端技术"
+  - "编程入门"
 primaryDirection: "Java后端/基础"
 tags: 
   - "Java"
@@ -34,7 +35,7 @@ suitableFor:
   - "Java入门和基础巩固者"
 recommendedUseCase: "系统补Java基础和JVM入门"
 riskNotes: "机构教师属性，非独立个人站"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=%E5%AE%8B%E7%BA%A2%E5%BA%B7%20Java"

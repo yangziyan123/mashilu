@@ -4,7 +4,8 @@ slug: "pdai"
 owner: "pdai"
 type: "个人IP"
 categories: 
-  - "Java 后端"
+  - "后端技术"
+  - "计算机基础"
 primaryDirection: "Java全栈知识体系"
 tags: 
   - "Java"
@@ -36,7 +37,7 @@ suitableFor:
   - "Java后端系统复习者"
 recommendedUseCase: "按知识体系查漏补缺"
 riskNotes: "文档型资料，需要自己实践"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://pdai.tech/"

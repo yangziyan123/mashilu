@@ -4,7 +4,7 @@ slug: "react"
 owner: "卡颂"
 type: "个人IP"
 categories: 
-  - "前端"
+  - "前端技术"
 primaryDirection: "前端/React源码"
 tags: 
   - "React"
@@ -39,7 +39,7 @@ suitableFor:
   - "React进阶开发者"
 recommendedUseCase: "深入React原理和源码"
 riskNotes: "不适合前端小白直接入门"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://react.iamkasong.com/"

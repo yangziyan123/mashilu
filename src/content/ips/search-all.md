@@ -4,7 +4,8 @@ slug: "search-all"
 owner: "左程云"
 type: "个人IP"
 categories: 
-  - "算法/数据结构"
+  - "求职"
+  - "算法"
 primaryDirection: "算法/面试"
 tags: 
   - "算法面试"
@@ -36,7 +37,7 @@ suitableFor:
   - "算法面试强化者"
 recommendedUseCase: "系统攻克面试算法和高频模型"
 riskNotes: "免费/付费资源分散，需后续核验官方入口"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=%E5%B7%A6%E7%A8%8B%E4%BA%91%20%E7%AE%97%E6%B3%95"

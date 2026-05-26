@@ -1,10 +1,10 @@
 ---
-import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import IpCard from "@/components/IpCard.astro";
+import { getAllIps } from "@/lib/ip-repository";
 import { getAllTags, getCategoryStats, sortIps } from "@/lib/ips";
 
-const ips = sortIps(await getCollection("ips"));
+const ips = sortIps(await getAllIps());
 const categories = getCategoryStats(ips);
 const tags = getAllTags(ips);
 const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =>

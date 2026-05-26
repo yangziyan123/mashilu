@@ -4,7 +4,8 @@ slug: "search-all-9"
 owner: "侯捷"
 type: "个人IP/讲师"
 categories: 
-  - "语言/后端工程"
+  - "后端技术"
+  - "计算机基础"
 primaryDirection: "C++/源码/设计模式"
 tags: 
   - "C++"
@@ -37,7 +38,7 @@ suitableFor:
   - "C++进阶学习者"
 recommendedUseCase: "学习STL、面向对象和C++设计"
 riskNotes: "公开视频版权来源复杂，需优先找正版入口"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=%E4%BE%AF%E6%8D%B7%20C%2B%2B"

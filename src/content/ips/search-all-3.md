@@ -4,7 +4,12 @@ slug: "search-all-3"
 owner: "韩顺平"
 type: "个人IP/机构教师"
 categories: 
-  - "Java 后端"
+  - "项目实战"
+  - "求职"
+  - "后端技术"
+  - "算法"
+  - "计算机基础"
+  - "编程入门"
 primaryDirection: "Java后端/编程入门"
 tags: 
   - "Java"
@@ -37,7 +42,7 @@ suitableFor:
   - "Java零基础和转码学习者"
 recommendedUseCase: "从Java基础到后端知识点入门"
 riskNotes: "机构内容较多，需区分正版来源和搬运"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=%E9%9F%A9%E9%A1%BA%E5%B9%B3%20Java"

@@ -4,7 +4,8 @@ slug: "github-mqyqingfeng-blog"
 owner: "冴羽"
 type: "个人IP"
 categories: 
-  - "Java 后端"
+  - "前端技术"
+  - "后端技术"
 primaryDirection: "前端/JavaScript"
 tags: 
   - "JavaScript"
@@ -35,7 +36,7 @@ suitableFor:
   - "JS进阶学习者"
 recommendedUseCase: "系统补JS基础和前端概念"
 riskNotes: "部分内容更新周期需核验"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://github.com/mqyqingfeng/Blog"

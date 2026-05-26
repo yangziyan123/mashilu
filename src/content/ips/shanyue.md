@@ -4,7 +4,9 @@ slug: "shanyue"
 owner: "山月"
 type: "个人IP"
 categories: 
-  - "前端"
+  - "求职"
+  - "前端技术"
+  - "后端技术"
 primaryDirection: "前端/全栈/面试"
 tags: 
   - "前端面试"
@@ -36,7 +38,7 @@ suitableFor:
   - "前端面试和全栈进阶者"
 recommendedUseCase: "前端面试查漏补缺"
 riskNotes: "需结合岗位方向筛选题目"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://q.shanyue.tech/"

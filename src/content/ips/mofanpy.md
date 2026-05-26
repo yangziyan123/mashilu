@@ -4,7 +4,8 @@ slug: "mofanpy"
 owner: "莫烦"
 type: "个人IP"
 categories: 
-  - "Python/AI/数据"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "Python/机器学习"
 tags: 
   - "Python"
@@ -38,7 +39,7 @@ suitableFor:
   - "Python/机器学习入门者"
 recommendedUseCase: "从Python进入机器学习/深度学习"
 riskNotes: "部分框架版本可能较旧，需注意新版API"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://mofanpy.com/"

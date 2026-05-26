@@ -4,7 +4,8 @@ slug: "search-all-7"
 owner: "小土堆"
 type: "个人IP"
 categories: 
-  - "Python/AI/数据"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "AI/PyTorch"
 tags: 
   - "PyTorch"
@@ -34,7 +35,7 @@ suitableFor:
   - "PyTorch和深度学习入门者"
 recommendedUseCase: "快速上手PyTorch训练流程"
 riskNotes: "需要核验主页、课程版本和完整度"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=%E5%B0%8F%E5%9C%9F%E5%A0%86%20PyTorch"

@@ -13,32 +13,41 @@ if (!rowsMatch) {
 
 const rows = Function(`"use strict"; return ${rowsMatch[1]};`)();
 
-function broadCategory(domain) {
-  if (domain.includes("算法")) return "算法/数据结构";
-  if (domain.includes("Java")) return "Java 后端";
-  if (domain.includes("前端")) return "前端";
-  if (domain.includes("嵌入式") || domain.includes("硬件")) return "嵌入式/硬件";
-  if (domain.includes("移动端")) return "移动端";
-  if (domain.includes("安全")) return "网络安全";
-  if (domain.includes("AI") || domain.includes("机器学习") || domain.includes("Python")) return "Python/AI/数据";
+function broadCategories(domain) {
+  const categories = [];
+  const add = (category) => {
+    if (!categories.includes(category)) categories.push(category);
+  };
+
+  if (domain.includes("项目实战") || domain.includes("实战")) add("项目实战");
+  if (domain.includes("学习路线") || domain.includes("校招") || domain.includes("面试") || domain.includes("求职")) add("求职");
+  if (domain.includes("前端")) add("前端技术");
+  if (
+    domain.includes("Java") ||
+    domain.includes("Go") ||
+    domain.includes("Rust") ||
+    domain.includes("C++") ||
+    domain.includes("系统编程") ||
+    domain.includes("编译器") ||
+    domain.includes("后端")
+  ) add("后端技术");
+  if (domain.includes("AI") || domain.includes("机器学习") || domain.includes("Python") || domain.includes("数据")) add("AI/数据");
+  if (domain.includes("算法") || domain.includes("数据结构")) add("算法");
   if (
     domain.includes("计算机") ||
     domain.includes("操作系统") ||
     domain.includes("网络") ||
     domain.includes("区块链") ||
     domain.includes("图形学") ||
-    domain.includes("Linux")
-  ) return "计算机基础/系统";
-  if (
-    domain.includes("Go") ||
-    domain.includes("Rust") ||
-    domain.includes("C++") ||
-    domain.includes("系统编程") ||
-    domain.includes("编译器")
-  ) return "语言/后端工程";
-  if (domain.includes("学习路线") || domain.includes("校招") || domain.includes("面试")) return "学习路线/求职";
-  if (domain.includes("编程入门") || domain.includes("通用编程")) return "编程入门/通用";
-  return "其他/扩展";
+    domain.includes("Linux") ||
+    domain.includes("图形学")
+  ) add("计算机基础");
+  if (domain.includes("嵌入式") || domain.includes("硬件") || domain.includes("物联网")) add("嵌入式");
+  if (domain.includes("移动端") || domain.includes("Android") || domain.includes("Flutter")) add("移动端");
+  if (domain.includes("安全")) add("网络安全");
+  if (domain.includes("编程入门") || domain.includes("通用编程") || domain.includes("入门")) add("编程入门");
+
+  return categories.length ? categories : ["其他"];
 }
 
 function splitList(value) {
@@ -184,7 +193,7 @@ function yamlObjectArray(values) {
 }
 
 function frontmatter(row, slug) {
-  const category = broadCategory(row.domain);
+  const categories = broadCategories(row.domain);
   const tags = splitList(row.tags);
   const platforms = splitList(row.forms);
   const sources = parseSourceLinks(row.source);
@@ -196,7 +205,7 @@ function frontmatter(row, slug) {
     `slug: ${yamlScalar(slug)}`,
     `owner: ${yamlScalar(row.owner)}`,
     `type: ${yamlScalar(row.type)}`,
-    `categories: ${yamlArray([category])}`,
+    `categories: ${yamlArray(categories)}`,
     `primaryDirection: ${yamlScalar(row.domain)}`,
     `tags: ${yamlArray(tags)}`,
     `image:`,
@@ -213,7 +222,7 @@ function frontmatter(row, slug) {
     `suitableFor: ${yamlArray(splitList(row.audience))}`,
     `recommendedUseCase: ${yamlScalar(row.scene)}`,
     `riskNotes: ${yamlScalar(row.risk)}`,
-    `dataStatus: ${yamlScalar(row.status)}`,
+    `dataStatus: "待核验"`,
     `lastVerified: "2026-05-24"`,
     `sources: ${yamlArray(sources.length ? sources : [row.url])}`,
     `note: ${yamlScalar(row.note)}`,
@@ -255,7 +264,7 @@ for (const row of rows) {
   const filePath = path.join(outputDir, `${slug}.md`);
   const text = `${frontmatter(row, slug)}${markdownBody(row)}`;
   await fs.writeFile(filePath, text, "utf8");
-  generated.push({ slug, name: row.name, category: broadCategory(row.domain) });
+  generated.push({ slug, name: row.name, categories: broadCategories(row.domain) });
 }
 
 console.log(`Generated ${generated.length} IP markdown files.`);

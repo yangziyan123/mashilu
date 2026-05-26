@@ -4,7 +4,8 @@ slug: "lxchuan12"
 owner: "若川"
 type: "个人IP"
 categories: 
-  - "前端"
+  - "前端技术"
+  - "后端技术"
 primaryDirection: "前端/源码共读"
 tags: 
   - "源码共读"
@@ -36,7 +37,7 @@ suitableFor:
   - "前端进阶学习者"
 recommendedUseCase: "通过源码阅读提升工程能力"
 riskNotes: "活动型内容要看是否持续更新"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.lxchuan12.cn/"

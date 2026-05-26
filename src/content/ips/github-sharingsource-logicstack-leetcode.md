@@ -4,7 +4,9 @@ slug: "github-sharingsource-logicstack-leetcode"
 owner: "宫水三叶"
 type: "个人IP"
 categories: 
-  - "算法/数据结构"
+  - "求职"
+  - "后端技术"
+  - "算法"
 primaryDirection: "算法/题解"
 tags: 
   - "LeetCode"
@@ -36,7 +38,7 @@ suitableFor:
   - "LeetCode刷题者"
 recommendedUseCase: "按题解补充思路、跟每日题训练"
 riskNotes: "更像题解库，系统课程属性较弱"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://github.com/SharingSource/LogicStack-LeetCode"

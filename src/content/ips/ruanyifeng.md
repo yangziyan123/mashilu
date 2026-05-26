@@ -4,7 +4,9 @@ slug: "ruanyifeng"
 owner: "阮一峰"
 type: "个人IP"
 categories: 
-  - "前端"
+  - "前端技术"
+  - "后端技术"
+  - "计算机基础"
 primaryDirection: "前端/技术写作"
 tags: 
   - "JavaScript"
@@ -38,7 +40,7 @@ suitableFor:
   - "技术阅读者"
 recommendedUseCase: "学习JS/ES6、跟踪技术趋势"
 riskNotes: "不是系统训练营型课程，适合作资料库"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.ruanyifeng.com/blog/"

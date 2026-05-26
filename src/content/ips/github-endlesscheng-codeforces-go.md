@@ -4,7 +4,7 @@ slug: "github-endlesscheng-codeforces-go"
 owner: "灵茶山艾府"
 type: "个人IP"
 categories: 
-  - "算法/数据结构"
+  - "算法"
 primaryDirection: "算法/竞赛"
 tags: 
   - "LeetCode"
@@ -36,7 +36,7 @@ suitableFor:
   - "进阶算法/竞赛学习者"
 recommendedUseCase: "提升竞赛和高难题能力"
 riskNotes: "难度偏高，不适合完全小白直接跟"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://github.com/EndlessCheng/codeforces-go"

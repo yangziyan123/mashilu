@@ -4,7 +4,8 @@ slug: "github-zhongfucheng3y-3y"
 owner: "3y"
 type: "个人IP"
 categories: 
-  - "Java 后端"
+  - "求职"
+  - "后端技术"
 primaryDirection: "Java后端/成长路线"
 tags: 
   - "Java"
@@ -37,7 +38,7 @@ suitableFor:
   - "Java初中级学习者"
 recommendedUseCase: "补Java后端常见知识点"
 riskNotes: "更新状态需复核"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://github.com/ZhongFuCheng3y/3y"

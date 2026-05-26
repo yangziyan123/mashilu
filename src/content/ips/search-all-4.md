@@ -4,7 +4,8 @@ slug: "search-all-4"
 owner: "老杜"
 type: "机构教师型IP"
 categories: 
-  - "Java 后端"
+  - "后端技术"
+  - "编程入门"
 primaryDirection: "Java后端/入门"
 tags: 
   - "Java"
@@ -35,7 +36,7 @@ suitableFor:
   - "Java入门学习者"
 recommendedUseCase: "按传统Java路线学习"
 riskNotes: "需确认课程版本和官方发布源"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=%E8%80%81%E6%9D%9C%20Java"

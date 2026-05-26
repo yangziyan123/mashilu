@@ -1,12 +1,12 @@
 ---
-import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import CategoryFilter from "@/components/CategoryFilter.astro";
 import IpCard from "@/components/IpCard.astro";
+import { getAllIps } from "@/lib/ip-repository";
 import { getCategoryBySlug, getCategoryStats, getCategorySlug, sortIps } from "@/lib/ips";
 
 export async function getStaticPaths() {
-  const ips = sortIps(await getCollection("ips"));
+  const ips = sortIps(await getAllIps());
   const categories = getCategoryStats(ips);
   return categories.map((category) => ({
     params: { category: category.slug },

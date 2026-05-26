@@ -4,7 +4,10 @@ slug: "xiaolincoding"
 owner: "小林"
 type: "个人IP"
 categories: 
-  - "计算机基础/系统"
+  - "求职"
+  - "后端技术"
+  - "算法"
+  - "计算机基础"
 primaryDirection: "计算机基础/面试"
 tags: 
   - "图解网络"
@@ -39,7 +42,7 @@ suitableFor:
   - "补计算机基础的人"
 recommendedUseCase: "用图解方式理解网络/OS/数据库/Redis"
 riskNotes: "图解适合理解，深度研究需再看教材/论文"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://xiaolincoding.com/"

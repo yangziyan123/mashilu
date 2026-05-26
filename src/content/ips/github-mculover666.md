@@ -4,7 +4,9 @@ slug: "github-mculover666"
 owner: "Mculover666"
 type: "个人IP"
 categories: 
-  - "嵌入式/硬件"
+  - "项目实战"
+  - "嵌入式"
+  - "编程入门"
 primaryDirection: "嵌入式/物联网"
 tags: 
   - "STM32"
@@ -35,7 +37,7 @@ suitableFor:
   - "嵌入式入门/项目实践者"
 recommendedUseCase: "学习STM32、RTOS和IoT项目"
 riskNotes: "入口分散，需补官方主页和课程状态"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://github.com/Mculover666"

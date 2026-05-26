@@ -4,7 +4,7 @@ slug: "tyrchen"
 owner: "陈天"
 type: "个人IP"
 categories: 
-  - "语言/后端工程"
+  - "后端技术"
 primaryDirection: "Rust/系统设计"
 tags: 
   - "Rust"
@@ -37,7 +37,7 @@ suitableFor:
   - "Rust和系统设计进阶者"
 recommendedUseCase: "学习Rust工程实践和系统设计"
 riskNotes: "部分内容在付费平台，需标清购买入口和评价"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://tyrchen.github.io/"

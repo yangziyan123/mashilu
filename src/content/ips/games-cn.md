@@ -4,7 +4,7 @@ slug: "games-cn"
 owner: "闫令琪等"
 type: "个人/课程品牌型IP"
 categories: 
-  - "计算机基础/系统"
+  - "计算机基础"
 primaryDirection: "计算机图形学/游戏引擎"
 tags: 
   - "图形学"
@@ -43,7 +43,7 @@ suitableFor:
   - "渲染方向学习者"
 recommendedUseCase: "系统学习现代计算机图形学"
 riskNotes: "数学要求较高，不适合零基础直接学"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://games-cn.org/"

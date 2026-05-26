@@ -4,7 +4,9 @@ slug: "github-crisxuan-bestjavaer"
 owner: "cxuan"
 type: "个人IP"
 categories: 
-  - "Java 后端"
+  - "求职"
+  - "后端技术"
+  - "计算机基础"
 primaryDirection: "Java后端/计算机基础"
 tags: 
   - "Java"
@@ -37,7 +39,7 @@ suitableFor:
   - "Java后端和基础知识复习者"
 recommendedUseCase: "面试前补基础和Java知识点"
 riskNotes: "资料散度较高，需整理学习顺序"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://github.com/crisxuan/bestJavaer"

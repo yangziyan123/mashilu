@@ -9,18 +9,23 @@
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "sync": "astro sync",
-    "import:data": "node scripts/import-ip-data.mjs"
+    "import:data": "node scripts/import-ip-data.mjs",
+    "import:supabase:dry-run": "node scripts/import-markdown-to-supabase.mjs --dry-run",
+    "import:supabase": "node scripts/import-markdown-to-supabase.mjs --write"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@astrojs/sitemap": "^3.7.2",
+    "@supabase/supabase-js": "^2.106.2",
     "astro": "^6.3.7",
     "autoprefixer": "^10.5.0",
+    "marked": "^18.0.4",
     "pagefind": "^1.5.2",
     "postcss": "^8.5.15",
     "tailwindcss": "^3.4.17",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "yaml": "^2.9.0"
   }
 }

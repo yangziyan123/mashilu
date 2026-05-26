@@ -4,7 +4,9 @@ slug: "bugstack"
 owner: "小傅哥"
 type: "个人IP"
 categories: 
-  - "Java 后端"
+  - "项目实战"
+  - "求职"
+  - "后端技术"
 primaryDirection: "Java后端/架构"
 tags: 
   - "Java"
@@ -43,7 +45,7 @@ suitableFor:
   - "想补项目和架构经验的人"
 recommendedUseCase: "Java项目实战、DDD、源码和架构专题学习"
 riskNotes: "内容密度较高，小白需要搭配入门课"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://bugstack.cn/"

@@ -4,7 +4,8 @@ slug: "search-all-6"
 owner: "唐宇迪"
 type: "个人IP/机构教师"
 categories: 
-  - "Python/AI/数据"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "Python/机器学习"
 tags: 
   - "Python"
@@ -35,7 +36,7 @@ suitableFor:
   - "机器学习工程入门者"
 recommendedUseCase: "用Python做数据分析和ML项目"
 riskNotes: "版本和平台来源分散，需核验官方入口"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=%E5%94%90%E5%AE%87%E8%BF%AA%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0"

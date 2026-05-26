@@ -4,7 +4,8 @@ slug: "linux"
 owner: "鸟哥"
 type: "个人IP/经典教程"
 categories: 
-  - "计算机基础/系统"
+  - "计算机基础"
+  - "编程入门"
 primaryDirection: "Linux/系统运维"
 tags: 
   - "Linux"
@@ -35,7 +36,7 @@ suitableFor:
   - "Linux和运维基础学习者"
 recommendedUseCase: "系统学习Linux命令和系统管理"
 riskNotes: "部分内容版本需结合现代发行版校正"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://linux.vbird.org/"

@@ -4,7 +4,8 @@ slug: "fishc"
 owner: "小甲鱼"
 type: "个人IP+工作室"
 categories: 
-  - "Python/AI/数据"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "编程入门/Python/C"
 tags: 
   - "C语言"
@@ -38,7 +39,7 @@ suitableFor:
   - "零基础编程学习者"
 recommendedUseCase: "入门C语言、Python和编程思维"
 riskNotes: "部分内容较基础，进阶就业需另配项目"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://fishc.com.cn/"

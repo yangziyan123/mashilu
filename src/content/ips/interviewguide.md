@@ -4,7 +4,9 @@ slug: "interviewguide"
 owner: "阿秀"
 type: "个人IP"
 categories: 
-  - "学习路线/求职"
+  - "求职"
+  - "后端技术"
+  - "计算机基础"
 primaryDirection: "校招/面试"
 tags: 
   - "C++"
@@ -39,7 +41,7 @@ suitableFor:
   - "转码求职者"
 recommendedUseCase: "校招准备、简历和面试节奏参考"
 riskNotes: "求职信息会随年份变化，需要标注更新时间"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://interviewguide.cn/"

@@ -4,7 +4,7 @@ slug: "coolshell"
 owner: "陈皓"
 type: "个人IP/经典归档"
 categories: 
-  - "其他/扩展"
+  - "后端技术"
 primaryDirection: "软件工程/程序员成长"
 tags: 
   - "软件工程"
@@ -36,7 +36,7 @@ suitableFor:
   - "工程实践学习者"
 recommendedUseCase: "阅读经典技术思考和工程经验"
 riskNotes: "作者已逝，内容为经典归档，时效性需标注"
-dataStatus: "经典归档"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://coolshell.cn/"

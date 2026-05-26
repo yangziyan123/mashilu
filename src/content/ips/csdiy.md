@@ -4,7 +4,7 @@ slug: "csdiy"
 owner: "PKUFlyingPig等"
 type: "个人/社区型IP"
 categories: 
-  - "计算机基础/系统"
+  - "计算机基础"
 primaryDirection: "计算机自学路线"
 tags: 
   - "CS课程"
@@ -34,7 +34,7 @@ suitableFor:
   - "想按大学CS体系系统自学的人"
 recommendedUseCase: "补计算机底层基础、规划长期路线"
 riskNotes: "不等同于就业训练营，短期求职需另配项目和面试"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://csdiy.wiki/"

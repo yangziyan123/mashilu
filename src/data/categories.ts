@@ -1,42 +1,42 @@
 export const categoryDefinitions = [
   {
-    name: "学习路线/求职",
+    name: "项目实战",
+    slug: "projects",
+    description: "可用于练手、作品集、业务模拟和端到端实践的项目型内容。",
+  },
+  {
+    name: "求职",
     slug: "career",
-    description: "学习路线、校招、简历、面试节奏和求职经验。",
+    description: "校招、社招、简历、面试、学习路线和求职经验。",
   },
   {
-    name: "Java 后端",
-    slug: "java",
-    description: "Java 基础、Spring、架构、项目实战和后端面试方向。",
-  },
-  {
-    name: "前端",
+    name: "前端技术",
     slug: "frontend",
     description: "HTML、CSS、JavaScript、Vue、React、工程化和前端面试方向。",
   },
   {
-    name: "算法/数据结构",
+    name: "后端技术",
+    slug: "backend",
+    description: "Java、Go、Rust、C++、服务端架构、源码、工程实践和基础设施。",
+  },
+  {
+    name: "AI/数据",
+    slug: "ai-data",
+    description: "Python、机器学习、深度学习、数据分析和大模型相关内容。",
+  },
+  {
+    name: "算法",
     slug: "algorithm",
     description: "LeetCode、竞赛、刷题路线、数据结构和算法训练。",
   },
   {
-    name: "Python/AI/数据",
-    slug: "python-ai-data",
-    description: "Python、机器学习、深度学习、数据分析和大模型相关内容。",
-  },
-  {
-    name: "计算机基础/系统",
-    slug: "cs-systems",
+    name: "计算机基础",
+    slug: "cs-basics",
     description: "网络、操作系统、数据库、Linux、图形学和系统基础。",
   },
   {
-    name: "语言/后端工程",
-    slug: "backend-engineering",
-    description: "Go、Rust、C++、系统编程、工程实践和后端基础设施。",
-  },
-  {
-    name: "嵌入式/硬件",
-    slug: "embedded-hardware",
+    name: "嵌入式",
+    slug: "embedded",
     description: "嵌入式、物联网、硬件、Linux 驱动和边缘 AI 工程。",
   },
   {
@@ -50,13 +50,13 @@ export const categoryDefinitions = [
     description: "安全基础、攻防实践、漏洞分析和安全学习路线。",
   },
   {
-    name: "编程入门/通用",
+    name: "编程入门",
     slug: "programming-basics",
     description: "编程入门、通用开发技能和跨语言基础能力。",
   },
   {
-    name: "其他/扩展",
-    slug: "others",
+    name: "其他",
+    slug: "other",
     description: "暂未归入核心分类，但对学习决策有参考价值的内容。",
   },
 ] as const;

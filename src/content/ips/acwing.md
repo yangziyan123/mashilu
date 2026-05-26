@@ -4,7 +4,9 @@ slug: "acwing"
 owner: "闫学灿"
 type: "个人IP+课程平台"
 categories: 
-  - "算法/数据结构"
+  - "求职"
+  - "算法"
+  - "计算机基础"
 primaryDirection: "算法/竞赛/考研"
 tags: 
   - "算法基础"
@@ -41,7 +43,7 @@ suitableFor:
   - "校招算法学习者"
 recommendedUseCase: "系统刷算法课、用题库训练"
 riskNotes: "算法平台属性强，非算法方向需搭配其他课程"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.acwing.com/"

@@ -4,7 +4,9 @@ slug: "javabetter"
 owner: "沉默王二"
 type: "个人IP"
 categories: 
-  - "Java 后端"
+  - "求职"
+  - "后端技术"
+  - "AI/数据"
 primaryDirection: "Java后端/面试"
 tags: 
   - "Java"
@@ -40,7 +42,7 @@ suitableFor:
   - "校招/社招面试者"
 recommendedUseCase: "Java基础补齐和面试知识梳理"
 riskNotes: "资料量大，需按目标筛选"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://javabetter.cn/"

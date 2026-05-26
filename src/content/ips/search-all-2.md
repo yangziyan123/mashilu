@@ -4,7 +4,9 @@ slug: "search-all-2"
 owner: "pink老师"
 type: "机构教师型IP"
 categories: 
-  - "前端"
+  - "前端技术"
+  - "后端技术"
+  - "编程入门"
 primaryDirection: "前端入门"
 tags: 
   - "HTML"
@@ -35,7 +37,7 @@ suitableFor:
   - "前端零基础学习者"
 recommendedUseCase: "从HTML/CSS/JS入门"
 riskNotes: "机构归属强，个人IP独立性弱"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=pink%E8%80%81%E5%B8%88%20%E5%89%8D%E7%AB%AF"

@@ -4,7 +4,8 @@ slug: "coursera-instructor-andrewng"
 owner: "Andrew Ng"
 type: "海外个人IP/课程平台"
 categories: 
-  - "Python/AI/数据"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "AI/机器学习"
 tags: 
   - "Machine Learning"
@@ -37,7 +38,7 @@ suitableFor:
   - "AI入门和英文学习者"
 recommendedUseCase: "建立机器学习基础框架"
 riskNotes: "英文和平台付费体系需说明"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.coursera.org/instructor/andrewng"

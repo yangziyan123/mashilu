@@ -4,7 +4,7 @@ slug: "speech"
 owner: "李宏毅"
 type: "个人IP/高校教师"
 categories: 
-  - "Python/AI/数据"
+  - "AI/数据"
 primaryDirection: "AI/机器学习"
 tags: 
   - "机器学习"
@@ -37,7 +37,7 @@ suitableFor:
   - "机器学习系统学习者"
 recommendedUseCase: "学习ML/DL核心概念和前沿专题"
 riskNotes: "课程偏学术，工程项目需另配"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://speech.ee.ntu.edu.tw/~hylee/"

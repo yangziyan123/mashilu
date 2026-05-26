@@ -4,7 +4,9 @@ slug: "github-wzmiaomiao-deep-learning-for-image-processing"
 owner: "Wz"
 type: "个人IP"
 categories: 
-  - "Python/AI/数据"
+  - "项目实战"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "AI/计算机视觉"
 tags: 
   - "PyTorch"
@@ -37,7 +39,7 @@ suitableFor:
   - "计算机视觉入门/项目实践者"
 recommendedUseCase: "跟代码复现CV模型"
 riskNotes: "深度学习基础不足者需要先补前置知识"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://github.com/WZMIAOMIAO/deep-learning-for-image-processing"

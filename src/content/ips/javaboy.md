@@ -4,7 +4,8 @@ slug: "javaboy"
 owner: "江南一点雨"
 type: "个人IP"
 categories: 
-  - "Java 后端"
+  - "前端技术"
+  - "后端技术"
 primaryDirection: "Java后端/Spring"
 tags: 
   - "Spring Security"
@@ -36,7 +37,7 @@ suitableFor:
   - "Java Web/Spring学习者"
 recommendedUseCase: "学习Spring Security和Java Web项目"
 riskNotes: "项目/框架版本需核验"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.javaboy.org/"

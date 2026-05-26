@@ -4,7 +4,12 @@ slug: "programmercarl"
 owner: "Carl"
 type: "个人IP"
 categories: 
-  - "算法/数据结构"
+  - "求职"
+  - "后端技术"
+  - "AI/数据"
+  - "算法"
+  - "计算机基础"
+  - "编程入门"
 primaryDirection: "算法/数据结构"
 tags: 
   - "LeetCode"
@@ -40,7 +45,7 @@ suitableFor:
   - "需要系统刷题的学习者"
 recommendedUseCase: "从零搭建算法刷题节奏，按专题练习"
 riskNotes: "偏刷题训练，计算机基础/项目实战需另配资源"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://programmercarl.com/"

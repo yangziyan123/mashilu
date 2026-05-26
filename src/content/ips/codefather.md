@@ -4,7 +4,12 @@ slug: "codefather"
 owner: "鱼皮"
 type: "个人IP+社区"
 categories: 
-  - "学习路线/求职"
+  - "项目实战"
+  - "求职"
+  - "前端技术"
+  - "后端技术"
+  - "AI/数据"
+  - "编程入门"
 primaryDirection: "学习路线/项目实战"
 tags: 
   - "Java"
@@ -44,7 +49,7 @@ suitableFor:
   - "校招求职者"
 recommendedUseCase: "选择学习路线、找项目、找面试资料"
 riskNotes: "自有生态较强，评估时需区分免费内容和付费产品"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.codefather.cn/"

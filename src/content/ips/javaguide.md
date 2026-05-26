@@ -4,7 +4,9 @@ slug: "javaguide"
 owner: "Guide哥"
 type: "个人IP+开源项目"
 categories: 
-  - "Java 后端"
+  - "求职"
+  - "后端技术"
+  - "计算机基础"
 primaryDirection: "Java后端/面试"
 tags: 
   - "Java"
@@ -37,7 +39,7 @@ suitableFor:
   - "Java校招/社招面试者"
 recommendedUseCase: "面试前查漏补缺、构建后端知识地图"
 riskNotes: "以资料库为主，实践项目需另配"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://javaguide.cn/"

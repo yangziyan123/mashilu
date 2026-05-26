@@ -4,7 +4,8 @@ slug: "labuladong"
 owner: "labuladong"
 type: "个人IP"
 categories: 
-  - "算法/数据结构"
+  - "求职"
+  - "算法"
 primaryDirection: "算法/数据结构"
 tags: 
   - "LeetCode"
@@ -36,7 +37,7 @@ suitableFor:
   - "希望用套路化方法刷题的人"
 recommendedUseCase: "算法模板、动态规划、题型归纳"
 riskNotes: "收费边界需标明，部分内容更适合有基础者"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://labuladong.online/algo/"

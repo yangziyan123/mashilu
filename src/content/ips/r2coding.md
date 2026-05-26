@@ -4,7 +4,7 @@ slug: "r2coding"
 owner: "站长/编程自学社区"
 type: "个人/社区型IP"
 categories: 
-  - "学习路线/求职"
+  - "编程入门"
 primaryDirection: "学习路线/资源导航"
 tags: 
   - "编程自学"
@@ -34,7 +34,7 @@ suitableFor:
   - "想自学但缺少路径的人"
 recommendedUseCase: "搭建入门资源清单"
 riskNotes: "偏资源集合，IP人格化程度相对弱"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://r2coding.com/"

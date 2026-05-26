@@ -4,7 +4,7 @@ slug: "zhangxinxu"
 owner: "张鑫旭"
 type: "个人IP"
 categories: 
-  - "前端"
+  - "前端技术"
 primaryDirection: "前端/CSS"
 tags: 
   - "CSS"
@@ -38,7 +38,7 @@ suitableFor:
   - "CSS进阶学习者"
 recommendedUseCase: "深入理解CSS和浏览器细节"
 riskNotes: "文章型资料多，需要自行组织学习路径"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.zhangxinxu.com/wordpress/"

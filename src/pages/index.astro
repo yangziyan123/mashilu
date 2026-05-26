@@ -1,21 +1,21 @@
 ---
-import { getCollection } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import CategoryFilter from "@/components/CategoryFilter.astro";
 import IpCard from "@/components/IpCard.astro";
 import SearchBox from "@/components/SearchBox.astro";
 import Stat from "@/components/Stat.astro";
 import { site } from "@/data/site";
+import { getAllIps } from "@/lib/ip-repository";
 import { getAllTags, getCategoryStats, sortIps } from "@/lib/ips";
 import { withBase } from "@/lib/url";
 
-const ips = sortIps(await getCollection("ips"));
+const ips = sortIps(await getAllIps());
 const categories = getCategoryStats(ips);
 const tags = getAllTags(ips);
 const latest = [...ips]
   .sort((a, b) => b.data.lastVerified.localeCompare(a.data.lastVerified))
   .slice(0, 8);
-const verifiedCount = ips.filter((ip) => ip.data.dataStatus === "已核验").length;
+const pendingCount = ips.filter((ip) => ip.data.dataStatus === "待核验").length;
 ---
 
 <BaseLayout>
@@ -37,7 +37,7 @@ const verifiedCount = ips.filter((ip) => ip.data.dataStatus === "已核验").len
         <Stat label="收录 IP" value={ips.length} />
         <Stat label="一级分类" value={categories.length} />
         <Stat label="内容标签" value={tags.length} />
-        <Stat label="已核验" value={verifiedCount} />
+        <Stat label="待核验" value={pendingCount} />
       </div>
     </div>
   </section>

@@ -1,14 +1,54 @@
-import type { CollectionEntry } from "astro:content";
 import { categoryDefinitions } from "@/data/categories";
 
-export type IpEntry = CollectionEntry<"ips">;
-export type ProductLink = IpEntry["data"]["productLinks"][number];
+export interface IpImage {
+  src: string;
+  alt: string;
+  source?: string;
+}
+
+export interface ProductLink {
+  label: string;
+  type: string;
+  url: string;
+  note?: string;
+}
+
+export interface IpData {
+  name: string;
+  slug: string;
+  owner: string;
+  type: string;
+  categories: string[];
+  primaryDirection: string;
+  tags: string[];
+  image: IpImage;
+  officialUrl: string;
+  platforms: string[];
+  contentTypes: string[];
+  productLinks: ProductLink[];
+  representativeProducts: string;
+  freeResources: string;
+  paidProducts: string;
+  suitableFor: string[];
+  recommendedUseCase: string;
+  riskNotes: string;
+  dataStatus: string;
+  lastVerified: string;
+  sources: string[];
+  note?: string;
+}
+
+export interface IpEntry {
+  id: string;
+  slug: string;
+  body?: string;
+  bodyMarkdown?: string;
+  collection?: "ips";
+  data: IpData;
+}
 
 const statusRank = new Map([
-  ["已核验", 0],
-  ["公开页待二次核验", 1],
-  ["待二次核验", 2],
-  ["经典归档", 3],
+  ["待核验", 0],
 ]);
 
 export function sortIps(ips: IpEntry[]) {

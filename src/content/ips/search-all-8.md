@@ -4,7 +4,10 @@ slug: "search-all-8"
 owner: "小迪"
 type: "个人IP/安全培训"
 categories: 
+  - "前端技术"
+  - "计算机基础"
   - "网络安全"
+  - "编程入门"
 primaryDirection: "网络安全"
 tags: 
   - "Web安全"
@@ -35,7 +38,7 @@ suitableFor:
   - "网络安全入门和渗透测试学习者"
 recommendedUseCase: "学习Web安全和渗透测试基础"
 riskNotes: "安全内容需提醒合法合规，付费口碑需核验"
-dataStatus: "待二次核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://search.bilibili.com/all?keyword=%E5%B0%8F%E8%BF%AA%E5%AE%89%E5%85%A8"

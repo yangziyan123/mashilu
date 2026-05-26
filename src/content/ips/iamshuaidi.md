@@ -4,7 +4,9 @@ slug: "iamshuaidi"
 owner: "帅地"
 type: "个人IP"
 categories: 
-  - "学习路线/求职"
+  - "求职"
+  - "算法"
+  - "计算机基础"
 primaryDirection: "学习路线/面试"
 tags: 
   - "校招"
@@ -38,7 +40,7 @@ suitableFor:
   - "校招准备者"
 recommendedUseCase: "建立求职准备清单、了解校招路径"
 riskNotes: "部分经验类内容需结合最新招聘市场判断"
-dataStatus: "已核验"
+dataStatus: "待核验"
 lastVerified: "2026-05-24"
 sources: 
   - "https://www.iamshuaidi.com/"
