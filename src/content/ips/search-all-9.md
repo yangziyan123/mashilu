@@ -12,6 +12,10 @@ tags:
   - "面向对象"
   - "设计模式"
   - "源码剖析"
+image:
+  src: "/images/ip-avatars/search-all-9.svg"
+  alt: "侯捷代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://search.bilibili.com/all?keyword=%E4%BE%AF%E6%8D%B7%20C%2B%2B"
 platforms: 
   - "公开视频/课程"
@@ -21,6 +25,11 @@ contentTypes:
   - "公开视频/课程"
   - "图书"
   - "线下/线上课程"
+productLinks:
+  - label: "侯捷主要入口"
+    type: "哔哩哔哩"
+    url: "https://search.bilibili.com/all?keyword=%E4%BE%AF%E6%8D%B7%20C%2B%2B"
+    note: "主要入口"
 representativeProducts: "侯捷C++系列课程/书籍"
 freeResources: "部分公开资源/搬运资源需核验"
 paidProducts: "正版课程/图书"

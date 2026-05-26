@@ -12,6 +12,10 @@ tags:
   - "运维基础"
   - "服务器"
   - "系统管理"
+image:
+  src: "/images/ip-avatars/linux.svg"
+  alt: "鸟哥代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://linux.vbird.org/"
 platforms: 
   - "网站"
@@ -19,6 +23,11 @@ platforms:
 contentTypes: 
   - "网站"
   - "图书"
+productLinks:
+  - label: "鸟哥主要入口"
+    type: "个人网站"
+    url: "https://linux.vbird.org/"
+    note: "主要入口"
 representativeProducts: "鸟哥的Linux私房菜"
 freeResources: "Linux在线教程"
 paidProducts: "图书/纸质书"

@@ -12,6 +12,10 @@ tags:
   - "实时渲染"
   - "物理引擎"
   - "游戏引擎"
+image:
+  src: "/images/ip-avatars/games-cn.svg"
+  alt: "GAMES-Webinar / 闫令琪代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://games-cn.org/"
 platforms: 
   - "课程网站"
@@ -21,6 +25,15 @@ contentTypes:
   - "课程网站"
   - "B站"
   - "讲义"
+productLinks:
+  - label: "GAMES-Webinar / 闫令琪主要入口"
+    type: "个人网站"
+    url: "https://games-cn.org/"
+    note: "主要入口"
+  - label: "GAMES-Webinar / 闫令琪GitHub入口"
+    type: "GitHub"
+    url: "https://github.com/SyMind/awesome-bilibili"
+    note: "来源入口"
 representativeProducts: "GAMES101/202/104系列课程"
 freeResources: "公开课视频和资料"
 paidProducts: "无明显付费主产品"

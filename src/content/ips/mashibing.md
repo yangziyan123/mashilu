@@ -12,6 +12,10 @@ tags:
   - "并发"
   - "JVM"
   - "后端培训"
+image:
+  src: "/images/ip-avatars/mashibing.svg"
+  alt: "马士兵代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.mashibing.com/"
 platforms: 
   - "网站"
@@ -23,6 +27,11 @@ contentTypes:
   - "B站"
   - "直播/课程"
   - "社群"
+productLinks:
+  - label: "马士兵主要入口"
+    type: "个人网站"
+    url: "https://www.mashibing.com/"
+    note: "主要入口"
 representativeProducts: "马士兵教育; Java/架构课程"
 freeResources: "部分公开视频/公开课"
 paidProducts: "系统课程/训练营"

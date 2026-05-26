@@ -12,6 +12,10 @@ tags:
   - "网络"
   - "数据库"
   - "面试"
+image:
+  src: "/images/ip-avatars/github-crisxuan-bestjavaer.svg"
+  alt: "程序员cxuan代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://github.com/crisxuan/bestJavaer"
 platforms: 
   - "GitHub"
@@ -21,6 +25,11 @@ contentTypes:
   - "GitHub"
   - "公众号"
   - "博客需核验"
+productLinks:
+  - label: "程序员cxuan主要入口"
+    type: "GitHub"
+    url: "https://github.com/crisxuan/bestJavaer"
+    note: "主要入口"
 representativeProducts: "cxuan技术文章/知识库"
 freeResources: "开源知识库和文章"
 paidProducts: "需二次核验"

@@ -11,6 +11,10 @@ tags:
   - "每日一题"
   - "算法题解"
   - "Java"
+image:
+  src: "/images/ip-avatars/github-sharingsource-logicstack-leetcode.svg"
+  alt: "宫水三叶代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://github.com/SharingSource/LogicStack-LeetCode"
 platforms: 
   - "GitHub"
@@ -20,6 +24,11 @@ contentTypes:
   - "GitHub"
   - "公众号"
   - "题解文章"
+productLinks:
+  - label: "宫水三叶主要入口"
+    type: "GitHub"
+    url: "https://github.com/SharingSource/LogicStack-LeetCode"
+    note: "主要入口"
 representativeProducts: "宫水三叶的刷题日记/题解"
 freeResources: "题解仓库和文章"
 paidProducts: "需二次核验"

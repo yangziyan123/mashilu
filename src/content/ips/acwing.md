@@ -12,6 +12,10 @@ tags:
   - "竞赛"
   - "考研机试"
   - "课程平台"
+image:
+  src: "/images/ip-avatars/acwing.svg"
+  alt: "AcWing / yxc代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.acwing.com/"
 platforms: 
   - "网站"
@@ -23,6 +27,11 @@ contentTypes:
   - "题库"
   - "视频课程"
   - "社区"
+productLinks:
+  - label: "AcWing / yxc主要入口"
+    type: "个人网站"
+    url: "https://www.acwing.com/"
+    note: "主要入口"
 representativeProducts: "AcWing算法课程; 题库; 社区"
 freeResources: "题库、部分公开内容"
 paidProducts: "系统课程、训练营/会员"

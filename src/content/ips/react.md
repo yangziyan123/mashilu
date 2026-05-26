@@ -12,6 +12,10 @@ tags:
   - "Hooks"
   - "性能优化"
   - "Fiber"
+image:
+  src: "/images/ip-avatars/react.svg"
+  alt: "魔术师卡颂代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://react.iamkasong.com/"
 platforms: 
   - "网站"
@@ -23,6 +27,11 @@ contentTypes:
   - "B站"
   - "公众号"
   - "课程"
+productLinks:
+  - label: "魔术师卡颂主要入口"
+    type: "个人网站"
+    url: "https://react.iamkasong.com/"
+    note: "主要入口"
 representativeProducts: "React技术揭秘; React源码课程/文章"
 freeResources: "React源码文章、部分视频"
 paidProducts: "课程/训练营需核验"

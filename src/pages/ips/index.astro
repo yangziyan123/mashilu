@@ -27,7 +27,7 @@ const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =
       <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
           <label class="field-label" for="filter-keyword">关键词</label>
-          <input class="form-field" id="filter-keyword" type="search" placeholder="名称、主理人、方向、标签" />
+          <input class="form-field" id="filter-keyword" type="search" placeholder="名称、主理人、方向、标签、入口" />
         </div>
         <div>
           <label class="field-label" for="filter-category">分类</label>
@@ -99,6 +99,7 @@ const statuses = [...new Set(ips.map((ip) => ip.data.dataStatus))].sort((a, b) =
         card.dataset.owner,
         card.dataset.category,
         card.dataset.tags,
+        card.dataset.links,
         card.textContent,
       ]
         .join(" ")

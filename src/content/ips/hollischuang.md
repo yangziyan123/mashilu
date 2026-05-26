@@ -12,6 +12,10 @@ tags:
   - "JVM"
   - "架构"
   - "面试"
+image:
+  src: "/images/ip-avatars/hollischuang.svg"
+  alt: "Hollis代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.hollischuang.com/"
 platforms: 
   - "博客"
@@ -21,6 +25,11 @@ contentTypes:
   - "博客"
   - "公众号"
   - "课程需核验"
+productLinks:
+  - label: "Hollis主要入口"
+    type: "个人网站"
+    url: "https://www.hollischuang.com/"
+    note: "主要入口"
 representativeProducts: "Hollis博客/公众号/知识体系"
 freeResources: "技术文章、面试/工程经验"
 paidProducts: "课程/社群需核验"

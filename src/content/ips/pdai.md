@@ -13,6 +13,10 @@ tags:
   - "JVM"
   - "数据库"
   - "分布式"
+image:
+  src: "/images/ip-avatars/pdai.svg"
+  alt: "pdai代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://pdai.tech/"
 platforms: 
   - "网站"
@@ -20,6 +24,11 @@ platforms:
 contentTypes: 
   - "网站"
   - "GitHub"
+productLinks:
+  - label: "pdai主要入口"
+    type: "个人网站"
+    url: "https://pdai.tech/"
+    note: "主要入口"
 representativeProducts: "Java全栈知识体系"
 freeResources: "完整知识体系文档"
 paidProducts: "未见明确主产品"

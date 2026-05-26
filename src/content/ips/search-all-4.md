@@ -12,6 +12,10 @@ tags:
   - "MySQL"
   - "SSM"
   - "入门课"
+image:
+  src: "/images/ip-avatars/search-all-4.svg"
+  alt: "动力节点老杜代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://search.bilibili.com/all?keyword=%E8%80%81%E6%9D%9C%20Java"
 platforms: 
   - "B站"
@@ -19,6 +23,11 @@ platforms:
 contentTypes: 
   - "B站"
   - "机构课程"
+productLinks:
+  - label: "动力节点老杜主要入口"
+    type: "哔哩哔哩"
+    url: "https://search.bilibili.com/all?keyword=%E8%80%81%E6%9D%9C%20Java"
+    note: "主要入口"
 representativeProducts: "老杜Java公开视频"
 freeResources: "公开视频"
 paidProducts: "机构培训/课程"

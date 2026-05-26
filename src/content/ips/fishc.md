@@ -11,6 +11,10 @@ tags:
   - "Python"
   - "零基础"
   - "鱼C论坛"
+image:
+  src: "/images/ip-avatars/fishc.svg"
+  alt: "鱼C工作室 / 小甲鱼代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://fishc.com.cn/"
 platforms: 
   - "网站"
@@ -22,6 +26,11 @@ contentTypes:
   - "论坛"
   - "视频"
   - "课程"
+productLinks:
+  - label: "鱼C工作室 / 小甲鱼主要入口"
+    type: "个人网站"
+    url: "https://fishc.com.cn/"
+    note: "主要入口"
 representativeProducts: "小甲鱼零基础课程; 鱼C论坛"
 freeResources: "论坛、公开视频/资料"
 paidProducts: "课程/教材/会员需核验"

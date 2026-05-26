@@ -12,6 +12,10 @@ tags:
   - "面试"
   - "学习路线"
   - "程序员成长"
+image:
+  src: "/images/ip-avatars/github-zhongfucheng3y-3y.svg"
+  alt: "Java3y / 3y代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://github.com/ZhongFuCheng3y/3y"
 platforms: 
   - "GitHub"
@@ -21,6 +25,11 @@ contentTypes:
   - "GitHub"
   - "公众号"
   - "博客需核验"
+productLinks:
+  - label: "Java3y / 3y主要入口"
+    type: "GitHub"
+    url: "https://github.com/ZhongFuCheng3y/3y"
+    note: "主要入口"
 representativeProducts: "Java3y公众号/文章"
 freeResources: "Java文章和学习路线资料"
 paidProducts: "需二次核验"

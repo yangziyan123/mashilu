@@ -12,6 +12,10 @@ tags:
   - "MySQL"
   - "数据结构"
   - "零基础"
+image:
+  src: "/images/ip-avatars/search-all-3.svg"
+  alt: "韩顺平代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://search.bilibili.com/all?keyword=%E9%9F%A9%E9%A1%BA%E5%B9%B3%20Java"
 platforms: 
   - "B站"
@@ -21,6 +25,11 @@ contentTypes:
   - "B站"
   - "培训机构课程"
   - "图书/资料需核验"
+productLinks:
+  - label: "韩顺平主要入口"
+    type: "哔哩哔哩"
+    url: "https://search.bilibili.com/all?keyword=%E9%9F%A9%E9%A1%BA%E5%B9%B3%20Java"
+    note: "主要入口"
 representativeProducts: "韩顺平Java课程; 满汉楼等项目课"
 freeResources: "公开视频"
 paidProducts: "机构课程/资料需核验"

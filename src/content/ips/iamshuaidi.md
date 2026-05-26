@@ -12,6 +12,10 @@ tags:
   - "算法"
   - "计算机基础"
   - "程序员成长"
+image:
+  src: "/images/ip-avatars/iamshuaidi.svg"
+  alt: "帅地玩编程代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.iamshuaidi.com/"
 platforms: 
   - "网站"
@@ -21,6 +25,11 @@ contentTypes:
   - "网站"
   - "公众号"
   - "视频"
+productLinks:
+  - label: "帅地玩编程主要入口"
+    type: "个人网站"
+    url: "https://www.iamshuaidi.com/"
+    note: "主要入口"
 representativeProducts: "帅地玩编程文章; 面试/学习路线内容"
 freeResources: "学习路线、面试经验、技术文章"
 paidProducts: "可能有社群/课程，需二次核验"

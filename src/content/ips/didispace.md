@@ -11,6 +11,10 @@ tags:
   - "Spring Cloud"
   - "微服务"
   - "Java"
+image:
+  src: "/images/ip-avatars/didispace.svg"
+  alt: "程序员DD代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://blog.didispace.com/"
 platforms: 
   - "博客"
@@ -20,6 +24,11 @@ contentTypes:
   - "博客"
   - "公众号"
   - "课程需核验"
+productLinks:
+  - label: "程序员DD主要入口"
+    type: "个人网站"
+    url: "https://blog.didispace.com/"
+    note: "主要入口"
 representativeProducts: "程序猿DD博客/教程"
 freeResources: "Spring Boot/Spring Cloud教程文章"
 paidProducts: "课程/社群需核验"

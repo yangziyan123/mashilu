@@ -13,6 +13,10 @@ tags:
   - "学习路线"
   - "八股文"
   - "经验帖"
+image:
+  src: "/images/ip-avatars/interviewguide.svg"
+  alt: "阿秀代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://interviewguide.cn/"
 platforms: 
   - "网站"
@@ -22,6 +26,11 @@ contentTypes:
   - "网站"
   - "GitHub"
   - "公众号"
+productLinks:
+  - label: "阿秀主要入口"
+    type: "个人网站"
+    url: "https://interviewguide.cn/"
+    note: "主要入口"
 representativeProducts: "阿秀的学习笔记; 校招面试资料"
 freeResources: "面试笔记、校招经验、学习路线"
 paidProducts: "可能有社群/资料，需二次核验"

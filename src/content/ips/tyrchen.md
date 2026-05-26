@@ -12,6 +12,10 @@ tags:
   - "系统设计"
   - "工程实践"
   - "极客时间"
+image:
+  src: "/images/ip-avatars/tyrchen.svg"
+  alt: "陈天代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://tyrchen.github.io/"
 platforms: 
   - "个人博客"
@@ -21,6 +25,11 @@ contentTypes:
   - "个人博客"
   - "课程平台"
   - "公众号/社媒需核验"
+productLinks:
+  - label: "陈天主要入口"
+    type: "个人网站"
+    url: "https://tyrchen.github.io/"
+    note: "主要入口"
 representativeProducts: "Rust/系统设计相关课程和文章"
 freeResources: "博客文章和公开分享"
 paidProducts: "课程平台专栏/课程"

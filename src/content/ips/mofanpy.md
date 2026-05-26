@@ -13,6 +13,10 @@ tags:
   - "NumPy"
   - "Pandas"
   - "强化学习"
+image:
+  src: "/images/ip-avatars/mofanpy.svg"
+  alt: "莫烦Python代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://mofanpy.com/"
 platforms: 
   - "网站"
@@ -22,6 +26,11 @@ contentTypes:
   - "网站"
   - "B站"
   - "视频教程"
+productLinks:
+  - label: "莫烦Python主要入口"
+    type: "个人网站"
+    url: "https://mofanpy.com/"
+    note: "主要入口"
 representativeProducts: "莫烦Python教程"
 freeResources: "教程文章和视频"
 paidProducts: "需二次核验"

@@ -12,6 +12,10 @@ tags:
   - "学习路线"
   - "程序员成长"
   - "AI应用"
+image:
+  src: "/images/ip-avatars/javabetter.svg"
+  alt: "沉默王二 / 二哥代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://javabetter.cn/"
 platforms: 
   - "网站"
@@ -23,6 +27,11 @@ contentTypes:
   - "公众号"
   - "GitHub"
   - "社群"
+productLinks:
+  - label: "沉默王二 / 二哥主要入口"
+    type: "个人网站"
+    url: "https://javabetter.cn/"
+    note: "主要入口"
 representativeProducts: "二哥的Java进阶之路; Java面试指南; 技术文章"
 freeResources: "Java教程、面试文章、学习路线"
 paidProducts: "社群/资料/训练营等需二次核验"

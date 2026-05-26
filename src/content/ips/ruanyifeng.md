@@ -12,6 +12,10 @@ tags:
   - "科技周刊"
   - "Web"
   - "开源"
+image:
+  src: "/images/ip-avatars/ruanyifeng.svg"
+  alt: "阮一峰代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.ruanyifeng.com/blog/"
 platforms: 
   - "博客"
@@ -21,6 +25,11 @@ contentTypes:
   - "博客"
   - "教程"
   - "周刊"
+productLinks:
+  - label: "阮一峰主要入口"
+    type: "个人网站"
+    url: "https://www.ruanyifeng.com/blog/"
+    note: "主要入口"
 representativeProducts: "阮一峰的网络日志; ES6教程; 科技爱好者周刊"
 freeResources: "博客、ES6教程、周刊"
 paidProducts: "需二次核验"

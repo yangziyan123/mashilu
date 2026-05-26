@@ -12,6 +12,10 @@ tags:
   - "安全基础"
   - "红队"
   - "CTF"
+image:
+  src: "/images/ip-avatars/search-all-8.svg"
+  alt: "小迪安全代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://search.bilibili.com/all?keyword=%E5%B0%8F%E8%BF%AA%E5%AE%89%E5%85%A8"
 platforms: 
   - "B站"
@@ -19,6 +23,11 @@ platforms:
 contentTypes: 
   - "B站"
   - "课程/社群需核验"
+productLinks:
+  - label: "小迪安全主要入口"
+    type: "哔哩哔哩"
+    url: "https://search.bilibili.com/all?keyword=%E5%B0%8F%E8%BF%AA%E5%AE%89%E5%85%A8"
+    note: "主要入口"
 representativeProducts: "小迪安全课程/公开视频"
 freeResources: "部分公开视频"
 paidProducts: "课程/训练营需核验"

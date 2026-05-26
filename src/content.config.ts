@@ -12,9 +12,24 @@ const ips = defineCollection({
     categories: z.array(z.string()),
     primaryDirection: z.string(),
     tags: z.array(z.string()).default([]),
+    image: z.object({
+      src: z.string(),
+      alt: z.string(),
+      source: z.string().optional(),
+    }),
     officialUrl: z.string().url(),
     platforms: z.array(z.string()).default([]),
     contentTypes: z.array(z.string()).default([]),
+    productLinks: z
+      .array(
+        z.object({
+          label: z.string(),
+          type: z.string(),
+          url: z.string().url(),
+          note: z.string().optional(),
+        }),
+      )
+      .min(1),
     representativeProducts: z.string(),
     freeResources: z.string(),
     paidProducts: z.string(),

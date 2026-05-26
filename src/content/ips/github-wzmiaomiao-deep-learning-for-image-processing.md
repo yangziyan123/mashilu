@@ -12,6 +12,10 @@ tags:
   - "CNN"
   - "Transformer"
   - "目标检测"
+image:
+  src: "/images/ip-avatars/github-wzmiaomiao-deep-learning-for-image-processing.svg"
+  alt: "霹雳吧啦Wz代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://github.com/WZMIAOMIAO/deep-learning-for-image-processing"
 platforms: 
   - "GitHub"
@@ -21,6 +25,11 @@ contentTypes:
   - "GitHub"
   - "B站"
   - "代码教程"
+productLinks:
+  - label: "霹雳吧啦Wz主要入口"
+    type: "GitHub"
+    url: "https://github.com/WZMIAOMIAO/deep-learning-for-image-processing"
+    note: "主要入口"
 representativeProducts: "深度学习CV模型讲解和代码复现"
 freeResources: "开源代码和公开视频"
 paidProducts: "需二次核验"

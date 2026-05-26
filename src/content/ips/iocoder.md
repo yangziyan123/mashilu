@@ -12,6 +12,10 @@ tags:
   - "源码"
   - "开源项目"
   - "微服务"
+image:
+  src: "/images/ip-avatars/iocoder.svg"
+  alt: "芋道源码代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.iocoder.cn/"
 platforms: 
   - "网站"
@@ -23,6 +27,11 @@ contentTypes:
   - "GitHub"
   - "公众号"
   - "社群"
+productLinks:
+  - label: "芋道源码主要入口"
+    type: "个人网站"
+    url: "https://www.iocoder.cn/"
+    note: "主要入口"
 representativeProducts: "芋道源码博客; ruoyi-vue-pro/yudao-cloud"
 freeResources: "源码文章、开源项目文档"
 paidProducts: "社群/课程需核验"

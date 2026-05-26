@@ -11,6 +11,10 @@ tags:
   - "动态规划"
   - "数据结构"
   - "大厂面试"
+image:
+  src: "/images/ip-avatars/search-all.svg"
+  alt: "左程云 / 左神代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://search.bilibili.com/all?keyword=%E5%B7%A6%E7%A8%8B%E4%BA%91%20%E7%AE%97%E6%B3%95"
 platforms: 
   - "视频课程"
@@ -20,6 +24,11 @@ contentTypes:
   - "视频课程"
   - "图书"
   - "训练营"
+productLinks:
+  - label: "左程云 / 左神主要入口"
+    type: "哔哩哔哩"
+    url: "https://search.bilibili.com/all?keyword=%E5%B7%A6%E7%A8%8B%E4%BA%91%20%E7%AE%97%E6%B3%95"
+    note: "主要入口"
 representativeProducts: "算法课程; 代码面试指南相关内容"
 freeResources: "部分公开视频/资料"
 paidProducts: "算法课程/训练营"

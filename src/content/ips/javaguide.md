@@ -12,6 +12,10 @@ tags:
   - "面试"
   - "系统设计"
   - "后端"
+image:
+  src: "/images/ip-avatars/javaguide.svg"
+  alt: "JavaGuide / Guide哥代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://javaguide.cn/"
 platforms: 
   - "网站"
@@ -21,6 +25,11 @@ contentTypes:
   - "网站"
   - "GitHub"
   - "公众号"
+productLinks:
+  - label: "JavaGuide / Guide哥主要入口"
+    type: "个人网站"
+    url: "https://javaguide.cn/"
+    note: "主要入口"
 representativeProducts: "JavaGuide面试知识库; GitHub仓库; 网站"
 freeResources: "开源知识库、网站文档"
 paidProducts: "可能有付费资料/社群，需二次核验"

@@ -11,6 +11,10 @@ tags:
   - "Nanjing University"
   - "OS设计与实现"
   - "算法竞赛"
+image:
+  src: "/images/ip-avatars/jyywiki.svg"
+  alt: "绿导师原谅你了 / JYY代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://jyywiki.cn/OS/"
 platforms: 
   - "课程网站"
@@ -20,6 +24,15 @@ contentTypes:
   - "课程网站"
   - "B站"
   - "GitHub/实验"
+productLinks:
+  - label: "绿导师原谅你了 / JYY主要入口"
+    type: "个人网站"
+    url: "https://jyywiki.cn/OS/"
+    note: "主要入口"
+  - label: "绿导师原谅你了 / JYYGitHub入口"
+    type: "GitHub"
+    url: "https://github.com/SyMind/awesome-bilibili"
+    note: "来源入口"
 representativeProducts: "南京大学操作系统：设计与实现"
 freeResources: "课程视频、讲义、实验材料"
 paidProducts: "无明显付费主产品"

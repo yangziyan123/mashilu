@@ -12,6 +12,10 @@ tags:
   - "程序员成长"
   - "技术写作"
   - "CoolShell"
+image:
+  src: "/images/ip-avatars/coolshell.svg"
+  alt: "陈皓 / 左耳朵耗子代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://coolshell.cn/"
 platforms: 
   - "博客"
@@ -19,6 +23,11 @@ platforms:
 contentTypes: 
   - "博客"
   - "专栏/图书需核验"
+productLinks:
+  - label: "陈皓 / 左耳朵耗子主要入口"
+    type: "个人网站"
+    url: "https://coolshell.cn/"
+    note: "主要入口"
 representativeProducts: "酷壳 CoolShell 博客文章"
 freeResources: "博客文章"
 paidProducts: "历史课程/专栏需核验"

@@ -13,6 +13,10 @@ tags:
   - "Redis"
   - "算法"
   - "面试"
+image:
+  src: "/images/ip-avatars/xiaolincoding.svg"
+  alt: "小林coding代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://xiaolincoding.com/"
 platforms: 
   - "网站"
@@ -22,6 +26,11 @@ contentTypes:
   - "网站"
   - "公众号"
   - "图解文章"
+productLinks:
+  - label: "小林coding主要入口"
+    type: "个人网站"
+    url: "https://xiaolincoding.com/"
+    note: "主要入口"
 representativeProducts: "图解计算机基础系列; 小林coding网站"
 freeResources: "图解文章、面试资料"
 paidProducts: "可能有资料/社群，需二次核验"

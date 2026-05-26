@@ -13,6 +13,10 @@ tags:
   - "源码"
   - "项目实战"
   - "面试"
+image:
+  src: "/images/ip-avatars/bugstack.svg"
+  alt: "小傅哥 bugstack代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://bugstack.cn/"
 platforms: 
   - "网站"
@@ -26,6 +30,11 @@ contentTypes:
   - "GitHub"
   - "社群"
   - "课程"
+productLinks:
+  - label: "小傅哥 bugstack主要入口"
+    type: "个人网站"
+    url: "https://bugstack.cn/"
+    note: "主要入口"
 representativeProducts: "bugstack虫洞栈; 小傅哥知识星球; Java项目/源码专题"
 freeResources: "博客文章、开源项目、部分专栏"
 paidProducts: "知识星球、课程/项目资料"

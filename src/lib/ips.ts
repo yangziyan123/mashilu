@@ -2,6 +2,7 @@ import type { CollectionEntry } from "astro:content";
 import { categoryDefinitions } from "@/data/categories";
 
 export type IpEntry = CollectionEntry<"ips">;
+export type ProductLink = IpEntry["data"]["productLinks"][number];
 
 const statusRank = new Map([
   ["已核验", 0],
@@ -69,6 +70,20 @@ export function getIpDescription(ip: IpEntry) {
   const data = ip.data;
   const audience = data.suitableFor.slice(0, 3).join("、");
   return `${data.name} 主要覆盖 ${data.primaryDirection}，适合${audience}，免费资源包括${data.freeResources}，付费形态为${data.paidProducts}。`;
+}
+
+export function getImageSrc(ip: IpEntry) {
+  const src = ip.data.image.src;
+  if (/^https?:\/\//.test(src)) return src;
+  return src.startsWith("/") ? src : `/${src}`;
+}
+
+export function getLinkHost(link: ProductLink) {
+  try {
+    return new URL(link.url).hostname.replace(/^www\./, "");
+  } catch {
+    return link.url;
+  }
 }
 
 export function getAllTags(ips: IpEntry[]) {

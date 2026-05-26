@@ -12,6 +12,10 @@ tags:
   - "JavaScript"
   - "Vue"
   - "前端基础"
+image:
+  src: "/images/ip-avatars/search-all-2.svg"
+  alt: "pink老师代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://search.bilibili.com/all?keyword=pink%E8%80%81%E5%B8%88%20%E5%89%8D%E7%AB%AF"
 platforms: 
   - "B站公开视频"
@@ -19,6 +23,11 @@ platforms:
 contentTypes: 
   - "B站公开视频"
   - "机构课程"
+productLinks:
+  - label: "pink老师主要入口"
+    type: "哔哩哔哩"
+    url: "https://search.bilibili.com/all?keyword=pink%E8%80%81%E5%B8%88%20%E5%89%8D%E7%AB%AF"
+    note: "主要入口"
 representativeProducts: "黑马程序员前端公开视频中的pink老师课程"
 freeResources: "公开视频教程"
 paidProducts: "机构培训/课程需核验"

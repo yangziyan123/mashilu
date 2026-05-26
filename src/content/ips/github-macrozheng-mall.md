@@ -12,6 +12,10 @@ tags:
   - "Mall"
   - "后台管理"
   - "微服务"
+image:
+  src: "/images/ip-avatars/github-macrozheng-mall.svg"
+  alt: "macrozheng代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://github.com/macrozheng/mall"
 platforms: 
   - "GitHub"
@@ -21,6 +25,11 @@ contentTypes:
   - "GitHub"
   - "文档"
   - "公众号需核验"
+productLinks:
+  - label: "macrozheng主要入口"
+    type: "GitHub"
+    url: "https://github.com/macrozheng/mall"
+    note: "主要入口"
 representativeProducts: "mall开源电商项目; 学习教程"
 freeResources: "开源项目和文档"
 paidProducts: "需二次核验"

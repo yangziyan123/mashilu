@@ -12,6 +12,10 @@ tags:
   - "校招"
   - "面试"
   - "学习路线"
+image:
+  src: "/images/ip-avatars/csguide.svg"
+  alt: "编程指北代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://csguide.cn/"
 platforms: 
   - "网站"
@@ -21,6 +25,11 @@ contentTypes:
   - "网站"
   - "公众号"
   - "社群"
+productLinks:
+  - label: "编程指北主要入口"
+    type: "个人网站"
+    url: "https://csguide.cn/"
+    note: "主要入口"
 representativeProducts: "编程指北网站; 求职/学习文章"
 freeResources: "路线、求职经验、技术文章"
 paidProducts: "可能有社群/资料，需二次核验"

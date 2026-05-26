@@ -11,6 +11,10 @@ tags:
   - "Codeforces"
   - "竞赛"
   - "周赛题解"
+image:
+  src: "/images/ip-avatars/github-endlesscheng-codeforces-go.svg"
+  alt: "灵茶山艾府代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://github.com/EndlessCheng/codeforces-go"
 platforms: 
   - "GitHub"
@@ -20,6 +24,11 @@ contentTypes:
   - "GitHub"
   - "题解"
   - "视频/社媒需核验"
+productLinks:
+  - label: "灵茶山艾府主要入口"
+    type: "GitHub"
+    url: "https://github.com/EndlessCheng/codeforces-go"
+    note: "主要入口"
 representativeProducts: "算法竞赛题解、周赛讲解"
 freeResources: "题解仓库和公开文章"
 paidProducts: "未见明确主产品"

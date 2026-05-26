@@ -12,6 +12,10 @@ tags:
   - "Git"
   - "Java"
   - "SQL"
+image:
+  src: "/images/ip-avatars/liaoxuefeng.svg"
+  alt: "廖雪峰代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.liaoxuefeng.com/"
 platforms: 
   - "网站教程"
@@ -19,6 +23,11 @@ platforms:
 contentTypes: 
   - "网站教程"
   - "文章"
+productLinks:
+  - label: "廖雪峰主要入口"
+    type: "个人网站"
+    url: "https://www.liaoxuefeng.com/"
+    note: "主要入口"
 representativeProducts: "廖雪峰官方网站教程"
 freeResources: "Python/JS/Git/Java等教程"
 paidProducts: "需二次核验"

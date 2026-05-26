@@ -11,6 +11,10 @@ tags:
   - "React"
   - "前端基础"
   - "源码阅读"
+image:
+  src: "/images/ip-avatars/github-mqyqingfeng-blog.svg"
+  alt: "冴羽代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://github.com/mqyqingfeng/Blog"
 platforms: 
   - "GitHub"
@@ -18,6 +22,11 @@ platforms:
 contentTypes: 
   - "GitHub"
   - "博客文章"
+productLinks:
+  - label: "冴羽主要入口"
+    type: "GitHub"
+    url: "https://github.com/mqyqingfeng/Blog"
+    note: "主要入口"
 representativeProducts: "冴羽的博客/JavaScript专题"
 freeResources: "开源文章和专题"
 paidProducts: "未见明确主产品"

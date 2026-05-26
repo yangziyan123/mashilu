@@ -12,6 +12,10 @@ tags:
   - "前端工程"
   - "浏览器"
   - "交互"
+image:
+  src: "/images/ip-avatars/zhangxinxu.svg"
+  alt: "张鑫旭代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.zhangxinxu.com/wordpress/"
 platforms: 
   - "博客"
@@ -21,6 +25,11 @@ contentTypes:
   - "博客"
   - "图书"
   - "课程/演讲需核验"
+productLinks:
+  - label: "张鑫旭主要入口"
+    type: "个人网站"
+    url: "https://www.zhangxinxu.com/wordpress/"
+    note: "主要入口"
 representativeProducts: "张鑫旭个人博客; CSS/前端专题文章"
 freeResources: "大量CSS/前端文章"
 paidProducts: "图书/课程需核验"

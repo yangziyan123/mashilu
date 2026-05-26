@@ -12,6 +12,10 @@ tags:
   - "深度学习"
   - "数据分析"
   - "OpenCV"
+image:
+  src: "/images/ip-avatars/search-all-6.svg"
+  alt: "唐宇迪代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://search.bilibili.com/all?keyword=%E5%94%90%E5%AE%87%E8%BF%AA%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0"
 platforms: 
   - "B站"
@@ -19,6 +23,11 @@ platforms:
 contentTypes: 
   - "B站"
   - "课程平台/机构课"
+productLinks:
+  - label: "唐宇迪主要入口"
+    type: "哔哩哔哩"
+    url: "https://search.bilibili.com/all?keyword=%E5%94%90%E5%AE%87%E8%BF%AA%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0"
+    note: "主要入口"
 representativeProducts: "机器学习/Python数据分析系列课"
 freeResources: "部分公开视频"
 paidProducts: "课程/训练营需核验"

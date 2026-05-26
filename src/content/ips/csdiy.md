@@ -11,6 +11,10 @@ tags:
   - "自学路线"
   - "国外公开课"
   - "计算机基础"
+image:
+  src: "/images/ip-avatars/csdiy.svg"
+  alt: "CS自学指南代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://csdiy.wiki/"
 platforms: 
   - "网站"
@@ -18,6 +22,11 @@ platforms:
 contentTypes: 
   - "网站"
   - "GitHub"
+productLinks:
+  - label: "CS自学指南主要入口"
+    type: "个人网站"
+    url: "https://csdiy.wiki/"
+    note: "主要入口"
 representativeProducts: "CS自学指南网站"
 freeResources: "课程路线、学习资料索引"
 paidProducts: "无明显付费产品"

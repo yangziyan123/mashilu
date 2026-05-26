@@ -11,6 +11,10 @@ tags:
   - "JVM"
   - "Java基础"
   - "尚硅谷"
+image:
+  src: "/images/ip-avatars/search-all-5.svg"
+  alt: "宋红康代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://search.bilibili.com/all?keyword=%E5%AE%8B%E7%BA%A2%E5%BA%B7%20Java"
 platforms: 
   - "B站"
@@ -18,6 +22,11 @@ platforms:
 contentTypes: 
   - "B站"
   - "机构课程"
+productLinks:
+  - label: "宋红康主要入口"
+    type: "哔哩哔哩"
+    url: "https://search.bilibili.com/all?keyword=%E5%AE%8B%E7%BA%A2%E5%BA%B7%20Java"
+    note: "主要入口"
 representativeProducts: "尚硅谷Java基础/JVM等课程"
 freeResources: "公开视频"
 paidProducts: "机构培训/服务需核验"

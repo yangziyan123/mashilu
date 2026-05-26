@@ -11,6 +11,10 @@ tags:
   - "JavaScript"
   - "前端工程"
   - "公众号"
+image:
+  src: "/images/ip-avatars/lxchuan12.svg"
+  alt: "若川代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.lxchuan12.cn/"
 platforms: 
   - "网站"
@@ -20,6 +24,11 @@ contentTypes:
   - "网站"
   - "公众号"
   - "社群"
+productLinks:
+  - label: "若川主要入口"
+    type: "个人网站"
+    url: "https://www.lxchuan12.cn/"
+    note: "主要入口"
 representativeProducts: "若川视野; 源码共读活动"
 freeResources: "源码共读文章、公开视频/资料"
 paidProducts: "社群/训练营需核验"

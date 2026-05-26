@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="macrozheng代表图片">
+  <rect width="256" height="256" rx="36" fill="#f1f5e8"/>
+  <path d="M0 196 C56 170 89 212 137 184 C184 157 198 108 256 96 L256 256 L0 256 Z" fill="#c7df8c" opacity="0.72"/>
+  <circle cx="190" cy="58" r="28" fill="#55772b" opacity="0.14"/>
+  <text x="128" y="128" text-anchor="middle" dominant-baseline="central" font-family="Inter, 'Noto Sans SC', 'Microsoft YaHei', sans-serif" font-size="64" font-weight="800" fill="#55772b">MA</text>
+  <text x="128" y="211" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#55772b" opacity="0.72">Java 后端</text>
+</svg>

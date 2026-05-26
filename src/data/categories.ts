@@ -1,5 +1,10 @@
 export const categoryDefinitions = [
   {
+    name: "学习路线/求职",
+    slug: "career",
+    description: "学习路线、校招、简历、面试节奏和求职经验。",
+  },
+  {
     name: "Java 后端",
     slug: "java",
     description: "Java 基础、Spring、架构、项目实战和后端面试方向。",
@@ -23,11 +28,6 @@ export const categoryDefinitions = [
     name: "计算机基础/系统",
     slug: "cs-systems",
     description: "网络、操作系统、数据库、Linux、图形学和系统基础。",
-  },
-  {
-    name: "学习路线/求职",
-    slug: "career",
-    description: "学习路线、校招、简历、面试节奏和求职经验。",
   },
   {
     name: "语言/后端工程",

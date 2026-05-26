@@ -12,6 +12,10 @@ tags:
   - "论文精读"
   - "机器学习"
   - "大模型"
+image:
+  src: "/images/ip-avatars/limu-ai.svg"
+  alt: "跟李沐学AI代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://zh.d2l.ai/"
 platforms: 
   - "在线书"
@@ -23,6 +27,15 @@ contentTypes:
   - "B站"
   - "GitHub"
   - "公开课"
+productLinks:
+  - label: "跟李沐学AI主要入口"
+    type: "个人网站"
+    url: "https://zh.d2l.ai/"
+    note: "主要入口"
+  - label: "跟李沐学AIGitHub入口"
+    type: "GitHub"
+    url: "https://github.com/SyMind/awesome-bilibili"
+    note: "来源入口"
 representativeProducts: "动手学深度学习; 论文精读; B站课程"
 freeResources: "动手学深度学习、论文精读视频"
 paidProducts: "图书/课程需核验"

@@ -12,6 +12,10 @@ tags:
   - "AI"
   - "Coursera"
   - "deeplearning.ai"
+image:
+  src: "/images/ip-avatars/coursera-instructor-andrewng.svg"
+  alt: "吴恩达 / Andrew Ng代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://www.coursera.org/instructor/andrewng"
 platforms: 
   - "Coursera"
@@ -21,6 +25,11 @@ contentTypes:
   - "Coursera"
   - "deeplearning.ai"
   - "YouTube"
+productLinks:
+  - label: "吴恩达 / Andrew Ng主要入口"
+    type: "Coursera"
+    url: "https://www.coursera.org/instructor/andrewng"
+    note: "主要入口"
 representativeProducts: "Machine Learning Specialization; Deep Learning Specialization"
 freeResources: "部分试听/公开材料"
 paidProducts: "Coursera证书课程/专项课程"

@@ -12,6 +12,10 @@ tags:
   - "生成式AI"
   - "语音"
   - "NLP"
+image:
+  src: "/images/ip-avatars/speech.svg"
+  alt: "李宏毅代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://speech.ee.ntu.edu.tw/~hylee/"
 platforms: 
   - "个人主页"
@@ -21,6 +25,11 @@ contentTypes:
   - "个人主页"
   - "YouTube/B站搬运"
   - "课程讲义"
+productLinks:
+  - label: "李宏毅主要入口"
+    type: "个人网站"
+    url: "https://speech.ee.ntu.edu.tw/~hylee/"
+    note: "主要入口"
 representativeProducts: "机器学习/深度学习公开视频课程"
 freeResources: "公开课视频和讲义"
 paidProducts: "无明显中文付费主产品"

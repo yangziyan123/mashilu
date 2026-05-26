@@ -11,6 +11,10 @@ tags:
   - "资源汇总"
   - "学习路线"
   - "工具"
+image:
+  src: "/images/ip-avatars/r2coding.svg"
+  alt: "R2Coding代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://r2coding.com/"
 platforms: 
   - "网站"
@@ -18,6 +22,11 @@ platforms:
 contentTypes: 
   - "网站"
   - "GitHub"
+productLinks:
+  - label: "R2Coding主要入口"
+    type: "个人网站"
+    url: "https://r2coding.com/"
+    note: "主要入口"
 representativeProducts: "Road 2 Coding编程自学之路"
 freeResources: "自学路线、资源导航"
 paidProducts: "未见明确主产品，需二次核验"

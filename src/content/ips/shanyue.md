@@ -11,6 +11,10 @@ tags:
   - "全栈"
   - "工程化"
   - "Node.js"
+image:
+  src: "/images/ip-avatars/shanyue.svg"
+  alt: "山月代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://q.shanyue.tech/"
 platforms: 
   - "网站"
@@ -20,6 +24,11 @@ contentTypes:
   - "网站"
   - "GitHub"
   - "公众号"
+productLinks:
+  - label: "山月主要入口"
+    type: "个人网站"
+    url: "https://q.shanyue.tech/"
+    note: "主要入口"
 representativeProducts: "山月行; 面试题库; 技术文章"
 freeResources: "面试题、技术文章"
 paidProducts: "可能有课程/社群，需核验"

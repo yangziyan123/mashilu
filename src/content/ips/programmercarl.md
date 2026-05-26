@@ -11,6 +11,10 @@ tags:
   - "刷题路线"
   - "代码训练营"
   - "C++/Java/Python/Go/JS"
+image:
+  src: "/images/ip-avatars/programmercarl.svg"
+  alt: "代码随想录 / 程序员Carl代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://programmercarl.com/"
 platforms: 
   - "网站"
@@ -22,6 +26,11 @@ contentTypes:
   - "公众号"
   - "B站/视频"
   - "训练营"
+productLinks:
+  - label: "代码随想录 / 程序员Carl主要入口"
+    type: "个人网站"
+    url: "https://programmercarl.com/"
+    note: "主要入口"
 representativeProducts: "《代码随想录》网站; 算法训练营; LeetCode刷题路线"
 freeResources: "网站刷题文章、题解路线、部分视频"
 paidProducts: "算法训练营/社群"

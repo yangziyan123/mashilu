@@ -53,6 +53,46 @@ function parseSourceLinks(value) {
   return links?.map((link) => link.replace(/[。.)）]+$/, "")) ?? [];
 }
 
+function inferLinkType(rawUrl) {
+  try {
+    const url = new URL(rawUrl);
+    const host = url.hostname.replace(/^www\./, "");
+    if (host.endsWith("bilibili.com")) return "哔哩哔哩";
+    if (host === "github.com") return "GitHub";
+    if (host === "gitee.com") return "Gitee";
+    if (host === "mp.weixin.qq.com") return "微信公众号";
+    if (host === "juejin.cn") return "掘金";
+    if (host === "zhihu.com") return "知乎";
+    if (host === "blog.csdn.net") return "CSDN";
+    if (host === "coursera.org") return "Coursera";
+    if (host.includes("zhishixingqiu") || host.includes("zsxq")) return "知识星球";
+    if (host.includes("douyin")) return "抖音";
+    return "个人网站";
+  } catch {
+    return "入口";
+  }
+}
+
+function buildProductLinks(row, sources) {
+  const urls = [row.url, ...sources].filter(Boolean);
+  const seen = new Set();
+  return urls
+    .filter((url) => {
+      if (seen.has(url)) return false;
+      seen.add(url);
+      return true;
+    })
+    .map((url, index) => {
+      const type = inferLinkType(url);
+      return {
+        label: index === 0 ? `${row.name}主要入口` : `${row.name}${type}入口`,
+        type,
+        url,
+        note: index === 0 ? "主入口" : "来源入口",
+      };
+    });
+}
+
 function hashSlug(value) {
   return crypto.createHash("sha1").update(value).digest("hex").slice(0, 8);
 }
@@ -128,11 +168,27 @@ function yamlArray(values) {
   return `\n${clean.map((item) => `  - ${yamlScalar(item)}`).join("\n")}`;
 }
 
+function yamlObjectArray(values) {
+  if (values.length === 0) return "[]";
+  return `\n${values
+    .map((item) => {
+      const lines = [
+        `  - label: ${yamlScalar(item.label)}`,
+        `    type: ${yamlScalar(item.type)}`,
+        `    url: ${yamlScalar(item.url)}`,
+      ];
+      if (item.note) lines.push(`    note: ${yamlScalar(item.note)}`);
+      return lines.join("\n");
+    })
+    .join("\n")}`;
+}
+
 function frontmatter(row, slug) {
   const category = broadCategory(row.domain);
   const tags = splitList(row.tags);
   const platforms = splitList(row.forms);
   const sources = parseSourceLinks(row.source);
+  const productLinks = buildProductLinks(row, sources.length ? sources : [row.url]);
 
   return [
     "---",
@@ -143,9 +199,14 @@ function frontmatter(row, slug) {
     `categories: ${yamlArray([category])}`,
     `primaryDirection: ${yamlScalar(row.domain)}`,
     `tags: ${yamlArray(tags)}`,
+    `image:`,
+    `  src: ${yamlScalar(`/images/ip-avatars/${slug}.svg`)}`,
+    `  alt: ${yamlScalar(`${row.name}代表图片`)}`,
+    `  source: ${yamlScalar("本地生成占位头像，待替换为已核验头像/标识")}`,
     `officialUrl: ${yamlScalar(row.url)}`,
     `platforms: ${yamlArray(platforms)}`,
     `contentTypes: ${yamlArray(platforms)}`,
+    `productLinks: ${yamlObjectArray(productLinks)}`,
     `representativeProducts: ${yamlScalar(row.product)}`,
     `freeResources: ${yamlScalar(row.free)}`,
     `paidProducts: ${yamlScalar(row.paid)}`,

@@ -12,6 +12,10 @@ tags:
   - "IoT"
   - "嵌入式"
   - "开源项目"
+image:
+  src: "/images/ip-avatars/github-mculover666.svg"
+  alt: "Mculover666代表图片"
+  source: "本地生成占位头像，待替换为已核验头像/标识"
 officialUrl: "https://github.com/Mculover666"
 platforms: 
   - "GitHub"
@@ -19,6 +23,11 @@ platforms:
 contentTypes: 
   - "GitHub"
   - "博客/公众号需核验"
+productLinks:
+  - label: "Mculover666主要入口"
+    type: "GitHub"
+    url: "https://github.com/Mculover666"
+    note: "主要入口"
 representativeProducts: "嵌入式文章和项目教程"
 freeResources: "开源代码和技术文章"
 paidProducts: "需二次核验"
